@@ -1,0 +1,30 @@
+.certs-header {
+  font-size: 40px;
+  line-height: 1.3;
+  font-family: "Google Sans Regular";
+  text-align: center;
+}
+
+.certs-body-div {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1380px) {
+  .certs-header {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .certs-body-div {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .certs-header {
+    font-size: 30px;
+  }
+}
