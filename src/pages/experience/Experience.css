@@ -47,14 +47,13 @@
 }
 
 .experience-header-detail-text {
-  font-size: 20px;
+  font-size: 17px;
   line-height: 30px;
   margin-top: 0px;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 24px;
   font-family: "Google Sans Regular";
 }
-
 @media (max-width: 1380px) {
   .experience-heading-text {
     font-size: 50px;

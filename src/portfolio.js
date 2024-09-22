@@ -9,7 +9,8 @@ const settings = {
 const seo = {
   title: "Rabia's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    // "I'm a dynamic professional, shaping the future as an ML researcher, simplifying complex tech as a technical writer, creating user experiences as a UX designer and bringing visions to life through frontend development. Shaping Innovation at the Intersection of Data, Words, Design and Code.",
+    "I'm a dynamic professional who shapes the future as an ML engineer, simplifies complex tech as a technical writer, creates user experiences as a UX designer and brings visions to life through frontend development.",
   og: {
     title: "Rabia Naz Portfolio",
     type: "website",
@@ -19,11 +20,11 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Hi! I'm Rabia Naz",
+  title: "Hi👋, I'm Rabia Naz",
   logo_name: "RabiaNaz",
   // nickname: "Rabia",
   subTitle:
-    "A versatile individual, seamlessly fusing technology, design, and words. A perpetual student and dedicated collaborator, weaving innovation and knowledge-sharing into the world of technology.",
+    "I'm a dynamic professional who shapes the future as an ML engineer, simplifies complex tech as a technical writer, creates user experiences as a UX designer and brings visions to life through frontend development.",
   portfolio_repository: "https://iamrabia-n.github.io/",
   githubProfile: "https://github.com/iamRabia-N",
 };
@@ -38,8 +39,8 @@ const socialMediaLinks = [
   {
     name: "Behance",
     link: "https://www.behance.net/iamRabia-N",
-    fontAwesomeIcon: "fa-behance", 
-    backgroundColor: "#0077B5", 
+    fontAwesomeIcon: "fa-behance",
+    backgroundColor: "#0077B5",
   },
   {
     name: "Github",
@@ -53,19 +54,184 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-medium", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "black", // Reference https://simpleicons.org/?q=youtube
   },
+  {
+    name: "Quora",
+    link: "https://www.quora.com/profile/Rabia-Naz-76",
+    fontAwesomeIcon: "fa-quora", // Reference https://fontawesome.com/icons/youtube?style=brands
+    backgroundColor: "#B92B27", // Reference https://simpleicons.org/?q=youtube
+  },
+  {
+    name: "Kaggle",
+    link: "https://www.kaggle.com/rabianaz22",
+    fontAwesomeIcon: "fa-kaggle", // Reference https://fontawesome.com/icons/youtube?style=brands
+    backgroundColor: "#20BEFF", // Reference https://simpleicons.org/?q=youtube
+  },
+  {
+    name: "Stack Overflow",
+    link: "https://stackoverflow.com/users/22688262/rabia-naz",
+    fontAwesomeIcon: "fa-stack-overflow", // Reference https://fontawesome.com/icons/youtube?style=brands
+    backgroundColor: "#FF9900", // Reference https://simpleicons.org/?q=youtube
+  },
+  {
+    name: "ORCID",
+    link: "https://orcid.org/0009-0001-2418-1972",
+    fontAwesomeIcon: "fa-orcid", // Reference https://fontawesome.com/icons/youtube?style=brands
+    backgroundColor: "#A6CE39",
+  },
 ];
 
 const skills = {
   data: [
     {
+      title: "ML Engineer",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Passionate ML engineer skilled in extracting valuable insights from data.",
+        "⚡ Proficient in key ML libraries like NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow and Keras.",
+        "⚡ Strong problem-solving skills for in-depth data analysis and model development.",
+        "⚡ Committed to teamwork and simplifying complex math for practical results.",
+        "⚡ Driven to explore and innovate with a focus on making a meaningful impact.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Numpy",
+          fontAwesomeClassname: "logos:numpy",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Pandas",
+          fontAwesomeClassname: "devicon:pandas",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Matplotlib",
+          fontAwesomeClassname: "devicon:matplotlib",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Seaborn",
+          fontAwesomeClassname: "logos:seaborn-icon",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Scikit-learn",
+          fontAwesomeClassname: "devicon:scikitlearn",
+          style: {
+            backgroundColor: "transparent",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+      ],
+    },
+    {
+      title: "Technical Writer",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Offer readers a relatable and engaging perspective on technical topics through a creative approach.",
+        "⚡ Ability to bridge the gap between technical experts and non-technical audiences through well-structured documentations.",
+        "⚡ Strong analytical skillset to translate complex technical details into clear and user-friendly guides, tutorials and manuals.",
+        "⚡ Extensive experience collaborating with cross-functional teams to gather information and insights in order to ensure accurate and up-to-date content.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "LinkedIn",
+          fontAwesomeClassname: "devicon:linkedin",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "Medium",
+          fontAwesomeClassname: "mingcute:medium-fill",
+          style: {
+            color: "black",
+          },
+        },
+      ],
+    },
+    {
+      title: "UX Designer",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Specialized UX designer with a track record of optimizing digital experiences.",
+        "⚡ Proficient in user research, information architecture, wireframing and prototyping.",
+        "⚡ Known for effective collaboration with cross-functional teams to transform complex requirements into visually appealing interfaces.",
+        "⚡ Committed to upholding user-centered design principles resulting in products that align with business objectives and deliver exceptional user experiences.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "devicon:figma",
+          style: {
+            color: "#F24E1E",
+          },
+        },
+        {
+          skillName: "Adobe XD",
+          fontAwesomeClassname: "simple-icons:adobexd",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "Webflow",
+          fontAwesomeClassname: "skill-icons:webflow",
+          style: {
+            color: "#F24E1E",
+          },
+        },
+        {
+          skillName: "Canva",
+          fontAwesomeClassname: "devicon:canva",
+        },
+        {
+          skillName: "Inkscape",
+          fontAwesomeClassname: "simple-icons:inkscape",
+          style: {
+            color: "black",
+          },
+        },
+      ],
+    },
+    {
       title: "Frontend Developer",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Proficient frontend developer skilled in creating responsive and visually compelling web interfaces.",
-        "⚡ Expertise in HTML, CSS, JavaScript, and modern frontend frameworks, ensuring a seamless user experience.",
+        "⚡ Expertise in HTML, CSS and JavaScript with a focus on ensuring a smooth and interactive user experience.",
         "⚡ Strong problem-solving abilities to address cross-browser compatibility and performance optimization challenges.",
         "⚡ Committed to enhancing the quality and functionality of web applications.",
-
       ],
       softwareSkills: [
         {
@@ -118,65 +284,6 @@ const skills = {
         },
       ],
     },
-    {
-      title: "UX Designer",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Specialized UX designer with a track record of optimizing digital experiences.",
-        "⚡ Proficient in user research, information architecture, wireframing, and prototyping.",
-        "⚡ Known for effective collaboration with cross-functional teams to transform complex requirements into intuitive, visually appealing interfaces.",
-        "⚡ Committed to upholding user-centered design principles, resulting in products that align with business objectives and deliver exceptional user experiences.",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "devicon:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Canva",
-          fontAwesomeClassname: "devicon:canva",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-      ],
-    },
-    {
-      title: "Technical Writer",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Creative thinker with a knack for adding a fresh perspective to technical topics, making them relatable and intriguing for readers.",
-        "⚡ Demonstrated ability to bridge the gap between technical experts and non-technical audiences through articulate and well-structured documentation and articles.",
-        "⚡ Strong analytical skills, enabling the translation of intricate technical details into user-friendly guides, tutorials, and manuals.",
-        "⚡ Extensive experience collaborating with subject matter experts and cross-functional teams to gather information and insights, ensuring accurate and up-to-date content.",
-      ],
-      softwareSkills: [
-        {
-          skillName: "LinkedIn",
-          fontAwesomeClassname: "devicon:linkedin",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "Medium",
-          fontAwesomeClassname: "mingcute:medium-fill",
-          style: {
-            color: "black",
-          },
-        },
-      ],
-    },
   ],
 };
 
@@ -189,10 +296,10 @@ const degrees = {
       alt_name: "University of Sargodha",
       duration: "2020 - 2024",
       descriptions: [
-        "⚡ Currently in the final year of this degree.",
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, Networking, etc.",
-        "⚡ Apart from this, I have done courses on UX Designing, Six Sigma and Web Development.",
-        "⚡ Besides having a strong grip on technical subjects, I am also passionate about focusing on non-technical skills, for which I have studied HRM, Art of Communication, and Entrepreneurship.",
+        "⚡ Studied key subjects like OOP, DSA, DBMS, OS and SQA.",
+        "⚡ Completed advanced courses in ML, UX Design, Six Sigma and Project Management.",
+        "⚡ Developed strong non-technical skills including HRM, Communication and Entrepreneurship.",
+        "⚡ Actively involved in the UX Design team where we organized and led workshops to share UX knowledge with students.",
       ],
       website_link: "https://su.edu.pk/",
     },
@@ -202,12 +309,21 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Google UX Design Professional Certificate",
-      subtitle: "7-Course Series",
-      logo_path: "google_logo.png",
+      title: "Machine Learning Specialization",
+      subtitle: "3-Course Series",
+      logo_path: "stanford_logo.png",
       certificate_link:
-        "https://www.coursera.org/professional-certificates/google-ux-design",
-      alt_name: "Google",
+        "https://www.coursera.org/specializations/machine-learning-introduction",
+      alt_name: "DeepLearning.AI",
+      color_code: "#1F70C199",
+    },
+    {
+      title: "DeepLearning.AI TensorFlow Developer Professional Certificate",
+      subtitle: "4-Course Series",
+      logo_path: "deeplearning_ai_logo.png",
+      certificate_link:
+        "https://www.coursera.org/professional-certificates/tensorflow-in-practice",
+      alt_name: "DeepLearning.AI",
       color_code: "#1F70C199",
     },
     {
@@ -219,6 +335,24 @@ const certifications = {
       alt_name: "University System of Georgia",
       color_code: "#2e3a84",
     },
+    {
+      title: "Google UX Design Professional Certificate",
+      subtitle: "7-Course Series",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://www.coursera.org/professional-certificates/google-ux-design",
+      alt_name: "Google",
+      color_code: "#1F70C199",
+    },
+    {
+      title: "Foundations of Project Management",
+      // subtitle: "1-Course",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://www.coursera.org/learn/project-management-foundations",
+      alt_name: "Google",
+      color_code: "#1F70C199",
+    },
   ],
 };
 
@@ -227,7 +361,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Volunteership",
   description:
-    "I have worked as a frontend developer in 3 hackathons and UX Designer in 2 hackathons with some amzing developers and designers around the globe. I love contributing in open-souce and that is why I am also involved with many open-source communities as a contributor.",
+    "I have participated as a frontend developer in three hackathons and as a UX designer in two hackathons, collaborating with amazing developers and designers from around the globe. I have a strong passion for contributing to open-source projects and this commitment has led me to actively participate in various open-source communities as a valuable contributor.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -235,15 +369,37 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Freelance Writer",
-          company: "Remote",
-          logo_path: "freelance.jpg",
+          title: "Lecturer",
+          company: "Punjab Group Of Colleges",
+          logo_path: "pgc.png",
+          duration: "September 2024 - Present",
+          location: "On-site",
           description:
-            "I am working as a freelance writer. My freelance services involves writing articles, documentations, tutorials, and research papers for my clients. I am dedicated to maintaining the highest standards of quality, accuracy, and consistency in all written materials, while also meeting deadlines and exceeding client expectations.",
+            "As a lecturer, I teach computer-related subjects to intermediate and bachelor's level students. My goal is to simplify complex topics and make learning easier and more practical for them.",
           color: "#0879bf",
         },
         {
-          title: "GirlScript Summer ofo Code",
+          title: "ML Engineer",
+          company: "Freelancer",
+          logo_path: "freelance.jpg",
+          duration: "March 2024 - Present",
+          location: "Remote",
+          description:
+            "I'm working as an ML Engineer where my primary focus is on building smart systems and discovering insights from data. I create strong machine learning models, analyze complex datasets and find innovative solutions. Quality and accuracy along with meeting deadlines are my priorities. I am committed to exceeding client expectations in every project.",
+          color: "#0879bf",
+        },
+        {
+          title: "Technical Writer",
+          company: "Freelancer",
+          logo_path: "freelance.jpg",
+          duration: "August 2023 - February 2024",
+          location: "Remote",
+          description:
+            "I worked as a contract-based technical writer with a focus on creating research analysis papers, articles and documentations. I dedicated myself to maintaining the highest standards of quality, accuracy and consistency in all written materials while also ensuring timely delivery and exceeding client expectations.",
+          color: "#0879bf",
+        },
+        {
+          title: "GirlScript Summer of Code",
           company: "GirlScript Foundation",
           company_url: "https://about.google/",
           logo_path: "gssoc.png",
@@ -259,23 +415,46 @@ const experience = {
           company_url: "https://www.microsoft.com/",
           logo_path: "ssoc.png",
           duration: "June 2023 - July 2023",
-          location: "June",
+          location: "Remote",
           description:
             "I have contributed in open-source projects for 2 months under the program named SSoC Season2. I have contributed as a frontend developer, bugs fixes and documentations improvement.",
           color: "#D83B01",
         },
       ],
     },
+    // {
+    //   title: "Publications",
+    //   experiences: [
+    //     {
+    //       title: "Real Estate Price Prediction",
+    //       company: "International Journal of Innovations in Science & Technology\nAuthors: Rabia Naz; Bushra Jamil; Humaira Ijaz",
+    //       company_url: "https://journal.50sea.com/index.php/IJIST/article/view/951/1498",
+    //       logo_path: "github_logo.png",
+    //       duration: "25th July 2024",
+    //       description: "Authors: Rabia Naz; Bushra Jamil; Humaira Ijaz",
+    //       color: "#181717",
+    //     },
+    //     {
+    //       title: "Enhancing Access to Legal Information: AI-Driven Constitution of Pakistan Search Engine",
+    //       company: "1st International Conference on Women Development in Engineering Science & Technology",
+    //       company_url: "https://wdest.muet.edu.pk/wp-content/uploads/2023/10/Abstract-Book_WD-EST23-Full.pdf ",
+    //       logo_path: "github_logo.png",
+    //       duration: "3rd - 5th October 2023",
+    //       description: "Authors: Hafiz Muhammad Faisal Shehzad; Rabia Naz",
+    //       color: "#181717",
+    //     },
+    //   ],
+    // },
     {
       title: "Volunteerships",
       experiences: [
         {
           title: "Open-Source Contributor",
-          company: "Github",
+          company: "GitHub",
           company_url: "https://github.com/",
           logo_path: "github_logo.png",
           description:
-            "I am actively contributing to many open-source projects. My contributions include bug fixes, feature requests, improving user experience and formulating proper documentation for project.",
+            "I am actively contributing to many open-source projects. My contributions include bug fixes, feature requests, improving user experience and formulating proper documentation for the projects.",
           color: "#181717",
         },
       ],
@@ -287,7 +466,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "I have made various frontend and UX design projects. My best experience is to create frontend and UX Design projects and deploy them on Github and Behance respectively.",
+    "I've had the opportunity to work on several frontend and UX design projects and I've enjoyed both creating them and sharing the finished work on platforms like GitHub and Behance. For machine learning, I exclusively conduct all of my work on Kaggle. I actively engage in Kaggle competitions and create machine learning-related notebooks. Additionally, I contribute my knowledge to help others on Stack Overflow and Quora.",
   avatar_image_path: "projects_image.svg",
 };
 // const githubprojectheader = {
@@ -318,48 +497,70 @@ const projectsHeader = {
 // };
 const publicationsHeader = {
   title: "Projects",
-  description:
-    "I have worked on many frontend and UX projects projects among which few are mentioned here.",
+  // description:
+  // "I've had the opportunity to work on numerous frontend and UX projects, with a few of them highlighted here.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publications = {
   data: [
     {
-      Category: "(UX Design Project)",
-      name: "DelightBlossom",
-      Tools: "Tools Used: Figma",
-      createdAt: "Published on: Behance",
-      description: "Case study on ecommerce app for cafe",
+      Category: "(Machine Learning Project)",
+      name: "House Prices - Advanced Regression Techniques",
+      Tools: "Libraries Used: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn",
+      createdAt: "Published on: Kaggle, GitHub",
+      description:
+        "A Kaggle competition to predict the sales prices of houses.",
       url:
-        "https://www.behance.net/gallery/177132547/DelightBlossom-Ecommerce-App-for-Cafe",
+        "https://github.com/iamRabia-N/HousePrices_AdvancedRegressionTechniques/tree/main",
+    },
+    {
+      Category: "(Frontend Project)",
+      name: "EarthMark",
+      Tools:
+        "Tech Stack Used: HTML, CSS, JavaScript, Flask, Python, Scikit-learn, API",
+      createdAt: "Published on: GitHub",
+      description:
+        "EarthMark is a real estate price prediction website built to provide accurate property price estimates. ",
+      url: "https://github.com/iamRabia-N/EarthMark",
     },
     {
       Category: "(UX Design Project)",
-      name: "Divine Dwelling",
-      Tools: "Tools Used: Figma",
+      name: "DelightBlossom",
+      Tools: "Tool Used: Figma",
       createdAt: "Published on: Behance",
-      description: "Case study on responsive website for finding apartments",
+      description: "Case study on ecommerce app for cafe.",
       url:
-        "https://www.behance.net/gallery/178602705/Responsive-Website-for-Finding-Apartments",
+        "https://www.behance.net/gallery/177132547/DelightBlossom-Ecommerce-App-for-Cafe",
+    },
+
+    {
+      Category: "(Machine Learning Project)",
+      name: "Titanic - Machine Learning from Disaster",
+      Tools: "Libraries Used: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn",
+      createdAt: "Published on: Kaggle",
+      description:
+        "A Kaggle competition to predict the survival of passengers on the Titanic using various ML models.",
+      url:
+        "https://www.kaggle.com/code/rabianaz22/titanic-machine-learning-from-disaster",
     },
     {
       Category: "(Frontend Project)",
       name: "HRA",
-      Tools: "Tools Used: HTML, CSS, JavaScript, JQuery",
-      createdAt: "Published on: Github",
-      description: "HRA is the clothing brand's website that helps users stay updated with the latest collection. ",
-      url:
-        "https://github.com/iamRabia-N/HRA",
+      Tools: "Tech Stack Used: HTML, CSS, JavaScript, JQuery",
+      createdAt: "Published on: GitHub",
+      description:
+        "HRA is the clothing brand's website that helps users stay updated with the latest collection. ",
+      url: "https://github.com/iamRabia-N/HRA",
     },
     {
-      Category: "(Frontend Project)",
-      name: "TODOS - Todo List Website",
-      Tools: "Tools Used: HTML, CSS, JavaScript, JQuery",
-      createdAt: "Published on: Github",
-      description: "TODOS is a small, simple yet beautiful todo list website. It can help you record and track your daily plan list. ",
+      Category: "(UX Design Project)",
+      name: "Divine Dwelling",
+      Tools: "Tool Used: Figma",
+      createdAt: "Published on: Behance",
+      description: "Case study on responsive website for finding apartments.",
       url:
-        "https://github.com/iamRabia-N/To-Do-List-website",
+        "https://www.behance.net/gallery/178602705/Responsive-Website-for-Finding-Apartments",
     },
   ],
 };
@@ -370,18 +571,16 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "contact.png",
     description:
-      "I am available on almost every social media that is mentioned below. You can contact me on these socials. I love collaborative learning and working. If you want to collaborate with me in development or design, do let me know. I would love to work together. For any queries, questions or help, contact me on LinkedIn.",
+      "I am available on almost every social media platform mentioned below. Feel free to contact me on these platforms. I'm open to collaborating on projects related to ML, UX or frontend development. If you're interested in working together, feel free to reach out. For any queries, questions or assistance, you can reach out to me on LinkedIn.",
   },
   blogSection: {
     ontactSection: {
       title: "Contact Me",
       profile_image_path: "contact.png",
       description:
-        "I am available on almost every social media platform that is mentioned below. You can contact me on these social media sites. I love collaborative learning and working. If you want to collaborate with me in development or design, do let me know. I would love to work together. For any queries, questions or help, contact me on LinkedIn.",
+        "I am available on almost every social media platform mentioned below. Feel free to contact me on these platforms. I'm open to collaborating on projects related to ML, UX or frontend development. If you're interested in working together, feel free to reach out. For any queries, questions or assistance, you can reach out to me on LinkedIn.",
     },
   },
-
-  
 };
 
 export {

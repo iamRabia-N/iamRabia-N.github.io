@@ -50,12 +50,42 @@
 }
 
 /* Media Query */
+@media ((min-width: 1760px) and (max-width: 2100px)) {
+  .greeting-text-p {
+    font-size: 25px;
+    margin-top: 3rem;
+  }
+}
+@media ((min-width: 1600px) and (max-width: 1760px)) {
+  .greeting-text-p {
+    font-size: 25px;
+    margin-top: 3rem;
+  }
+}
+@media ((min-width: 1300px) and (max-width: 1560px)) {
+  .greeting-text-p {
+    font-size: 22px;
+    margin-top: 3rem;
+  }
+}
+@media ((min-width: 1400px) and (max-width: 1360px)) {
+  .greeting-text {
+    font-size: 40px;
+    margin-top: 3rem;
+  }
+  .greeting-text-p {
+    font-size: 20px !important;
+    font-family: "Google Sans Medium";
+  }
+}
 @media (max-width: 1380px) {
   .greeting-text {
     font-size: 50px;
+    margin-top: 3rem;
   }
   .greeting-text-p {
-    font-size: 20px;
+    font-size: 20px !important;
+    font-family: "Google Sans Medium";
   }
 }
 @media (max-width: 768px) {
@@ -85,5 +115,10 @@
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+}
+@media ((max-width: 1000px) and (min-width: 1100px)) {
+  .greeting-image-div > * {
+    max-width: 144%;
   }
 }

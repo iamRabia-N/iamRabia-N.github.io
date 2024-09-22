@@ -64,6 +64,7 @@ h1.react-reveal.skills-heading {
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
+    font-family: "Google Sans Regular";
   }
   .skills-main-div {
     flex-direction: column;
