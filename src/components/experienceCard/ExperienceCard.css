@@ -166,6 +166,7 @@
   margin-right: 0px;
   text-align: right;
   color: #868e96;
+  min-width: max-content;
 }
 
 .experience-card-heading-left {
@@ -338,6 +339,11 @@
   .experience-card-description {
     margin-left: 14px;
     margin-right: 14px;
+    text-align: justify;
+  }
+}
+@media (max-width: 768px) {
+  .experience-card {
     text-align: justify;
   }
 }

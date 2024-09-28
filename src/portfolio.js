@@ -360,8 +360,10 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work and Volunteership",
+  // description:
+  //   "I have participated as a frontend developer in three hackathons and as a UX designer in two hackathons, collaborating with amazing developers and designers from around the globe. I have a strong passion for contributing to open-source projects and this commitment has led me to actively participate in various open-source communities as a valuable contributor.",
   description:
-    "I have participated as a frontend developer in three hackathons and as a UX designer in two hackathons, collaborating with amazing developers and designers from around the globe. I have a strong passion for contributing to open-source projects and this commitment has led me to actively participate in various open-source communities as a valuable contributor.",
+    "I have significant experience as a frontend developer, UX designer, technical writer, machine learning engineer and researcher. I also have a strong passion for contributing to open-source projects. I enjoy working with others and look for opportunities to create meaningful solutions.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -422,29 +424,66 @@ const experience = {
         },
       ],
     },
-    // {
-    //   title: "Publications",
-    //   experiences: [
-    //     {
-    //       title: "Real Estate Price Prediction",
-    //       company: "International Journal of Innovations in Science & Technology\nAuthors: Rabia Naz; Bushra Jamil; Humaira Ijaz",
-    //       company_url: "https://journal.50sea.com/index.php/IJIST/article/view/951/1498",
-    //       logo_path: "github_logo.png",
-    //       duration: "25th July 2024",
-    //       description: "Authors: Rabia Naz; Bushra Jamil; Humaira Ijaz",
-    //       color: "#181717",
-    //     },
-    //     {
-    //       title: "Enhancing Access to Legal Information: AI-Driven Constitution of Pakistan Search Engine",
-    //       company: "1st International Conference on Women Development in Engineering Science & Technology",
-    //       company_url: "https://wdest.muet.edu.pk/wp-content/uploads/2023/10/Abstract-Book_WD-EST23-Full.pdf ",
-    //       logo_path: "github_logo.png",
-    //       duration: "3rd - 5th October 2023",
-    //       description: "Authors: Hafiz Muhammad Faisal Shehzad; Rabia Naz",
-    //       color: "#181717",
-    //     },
-    //   ],
-    // },
+    {
+      title: "Publications",
+      experiences: [
+        {
+          title:
+            "A Review on Cloud Computing Threats, Security, and Possible Solutions",
+          company:
+            "International Journal of Innovations in Science & Technology",
+          company_url:
+            "https://journal.50sea.com/index.php/IJIST/article/view/951/1498",
+          logo_path: "paper.png",
+          duration: "16th September 2024",
+          location: "Journal Paper",
+          description:
+            "The paper explains the security challenges in cloud computing and discusses solutions to address them. It highlights issues like data breaches, DDoS attacks and weak encryption methods while offering techniques like AI-based threat detection and advanced encryption to enhance cloud security.",
+          color: "#181717",
+        },
+        {
+          title: "Real Estate Price Prediction",
+          company:
+            "International Journal of Innovations in Science & Technology",
+          company_url:
+            "https://journal.50sea.com/index.php/IJIST/article/view/951/1498",
+          logo_path: "paper.png",
+          duration: "25th July 2024",
+          location: "Journal Paper",
+          description:
+            "The paper explains how machine learning and deep learning techniques are applied to predict real estate prices. It explores different algorithms to tackle challenges such as market fluctuations and data complexity in order to improve the accuracy of property value predictions.",
+          color: "#181717",
+        },
+        {
+          title:
+            "Machine Learning, Deep Learning, and Hybrid Approaches in Real Estate Price Prediction: A Comprehensive Systematic Literature Review",
+          company:
+            "    Proceedings of Pakistan Academy of Sciences A Physical and Computational Sciences",
+          company_url:
+            "https://wdest.muet.edu.pk/wp-content/uploads/2023/10/Abstract-Book_WD-EST23-Full.pdf ",
+          logo_path: "paper.png",
+          duration: "28th June 2024",
+          location: "Journal Paper",
+          description:
+            "The paper reviews different methods used to predict real estate prices focusing on machine learning, deep learning and hybrid techniques. It analyzes both qualitative and quantitative factors that affect property values and identifies gaps in current research.",
+          color: "#181717",
+        },
+        {
+          title:
+            "Enhancing Access to Legal Information: AI-Driven Constitution of Pakistan Search Engine",
+          company:
+            "1st International Conference on Women Development in Engineering Science & Technology",
+          company_url:
+            "https://wdest.muet.edu.pk/wp-content/uploads/2023/10/Abstract-Book_WD-EST23-Full.pdf ",
+          logo_path: "paper.png",
+          duration: "3rd - 5th October 2023",
+          location: "Conference Paper",
+          description:
+            "The paper proposes an AI-driven search engine to enhance access to the Pakistani Constitution. It allows efficient information retrieval for law enforcement, NGOs and the public by using neural networks to process and vectorize data for improved search results.",
+          color: "#181717",
+        },
+      ],
+    },
     {
       title: "Volunteerships",
       experiences: [
@@ -465,8 +504,10 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
+  // description:
+  //   "I've had the opportunity to work on several frontend and UX design projects and I've enjoyed both creating them and sharing the finished work on platforms like GitHub and Behance. For machine learning, I exclusively conduct all of my work on Kaggle. Additionally, I contribute my knowledge to help others on Stack Overflow and Quora.",
   description:
-    "I've had the opportunity to work on several frontend and UX design projects and I've enjoyed both creating them and sharing the finished work on platforms like GitHub and Behance. For machine learning, I exclusively conduct all of my work on Kaggle. I actively engage in Kaggle competitions and create machine learning-related notebooks. Additionally, I contribute my knowledge to help others on Stack Overflow and Quora.",
+    "I have worked on various frontend and UX design projects which I’ve had the opportunity to showcase on platforms like GitHub and Behance. Data science projects are conducted exclusively on Kaggle where I engage with real-world data challenges and continuously enhance my expertise. I also contribute actively to the developer community by sharing knowledge on Stack Overflow and Quora.",
   avatar_image_path: "projects_image.svg",
 };
 // const githubprojectheader = {
