@@ -611,15 +611,19 @@ const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "contact.png",
+    // description:
+    //   "I am available on almost every social media platform mentioned below. Feel free to contact me on these platforms. I'm open to collaborating on projects related to data science, UX or frontend development. If you're interested in working together, feel free to reach out. For any queries, questions or assistance, you can reach out to me on LinkedIn.",
     description:
-      "I am available on almost every social media platform mentioned below. Feel free to contact me on these platforms. I'm open to collaborating on projects related to ML, UX or frontend development. If you're interested in working together, feel free to reach out. For any queries, questions or assistance, you can reach out to me on LinkedIn.",
+      "I’m excited to connect with fellow professionals! Feel free to reach out on any social media platform. If you’re passionate about data science, UX design or frontend development, I would appreciate to explore collaboration opportunities. Connect with me on LinkedIn for any questions or inquiries.",
   },
   blogSection: {
     ontactSection: {
       title: "Contact Me",
       profile_image_path: "contact.png",
+      // description:
+      //   "I am available on almost every social media platform mentioned below. Feel free to contact me on these platforms. I'm open to collaborating on projects related to data science, UX or frontend development. If you're interested in working together, feel free to reach out. For any queries, questions or assistance, you can reach out to me on LinkedIn.",
       description:
-        "I am available on almost every social media platform mentioned below. Feel free to contact me on these platforms. I'm open to collaborating on projects related to ML, UX or frontend development. If you're interested in working together, feel free to reach out. For any queries, questions or assistance, you can reach out to me on LinkedIn.",
+        "I’m excited to connect with fellow professionals! Feel free to reach out on any social media platform. If you’re passionate about data science, UX design, or frontend development, I appreciate the opportunity to explore collaboration with you. Connect with me on LinkedIn for any questions or inquiries.",
     },
   },
 };
