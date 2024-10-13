@@ -433,7 +433,7 @@ const experience = {
           company:
             "International Journal of Innovations in Science & Technology",
           company_url:
-            "https://journal.50sea.com/index.php/IJIST/article/view/951/1498",
+            "https://journal.50sea.com/index.php/IJIST/article/view/989/1596",
           logo_path: "paper.png",
           duration: "16th September 2024",
           location: "Journal Paper",
@@ -458,9 +458,9 @@ const experience = {
           title:
             "Machine Learning, Deep Learning, and Hybrid Approaches in Real Estate Price Prediction: A Comprehensive Systematic Literature Review",
           company:
-            "    Proceedings of Pakistan Academy of Sciences A Physical and Computational Sciences",
+            "    Proceedings of Pakistan Academy of Sciences: A Physical and Computational Sciences",
           company_url:
-            "https://wdest.muet.edu.pk/wp-content/uploads/2023/10/Abstract-Book_WD-EST23-Full.pdf ",
+            "https://ppaspk.org/index.php/PPAS-A/article/view/1356/796",
           logo_path: "paper.png",
           duration: "28th June 2024",
           location: "Journal Paper",
