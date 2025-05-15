@@ -90,7 +90,6 @@ const skills = {
         "⚡ Proficient in key ML libraries like NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow and Keras.",
         "⚡ Strong problem-solving skills for in-depth data analysis and model development.",
         "⚡ Committed to teamwork and simplifying complex math for practical results.",
-        "⚡ Driven to explore and innovate with a focus on making a meaningful impact.",
       ],
       softwareSkills: [
         {
@@ -161,7 +160,7 @@ const skills = {
         "⚡ Offer readers a relatable and engaging perspective on technical topics through a creative approach.",
         "⚡ Ability to bridge the gap between technical experts and non-technical audiences through well-structured documentations.",
         "⚡ Strong analytical skillset to translate complex technical details into clear and user-friendly guides, tutorials and manuals.",
-        "⚡ Extensive experience collaborating with cross-functional teams to gather information and insights in order to ensure accurate and up-to-date content.",
+        "⚡ Experienced in collaborating with cross-functional teams to ensure technical information is accurate, clear and up to date.",
       ],
       softwareSkills: [
         {
@@ -184,10 +183,10 @@ const skills = {
       title: "UX Designer",
       fileName: "DesignImg",
       skills: [
-        "⚡ Specialized UX designer with a track record of optimizing digital experiences.",
+        "⚡ Specialized UX designer with a focus on optimizing digital experiences.",
         "⚡ Proficient in user research, information architecture, wireframing and prototyping.",
         "⚡ Known for effective collaboration with cross-functional teams to transform complex requirements into visually appealing interfaces.",
-        "⚡ Committed to upholding user-centered design principles resulting in products that align with business objectives and deliver exceptional user experiences.",
+        "⚡ Committed to upholding user-centered design principles to create products that align with business objectives and deliver exceptional user experiences.",
       ],
       softwareSkills: [
         {
@@ -297,9 +296,9 @@ const degrees = {
       duration: "2020 - 2024",
       descriptions: [
         "⚡ Studied key subjects like OOP, DSA, DBMS, OS and SQA.",
-        "⚡ Completed advanced courses in ML, UX Design, Six Sigma and Project Management.",
-        "⚡ Developed strong non-technical skills including HRM, Communication and Entrepreneurship.",
-        "⚡ Actively involved in the UX Design team where we organized and led workshops to share UX knowledge with students.",
+        "⚡ Completed advanced courses in machine learning, UX design and project management.",
+        "⚡ Developed strong non-technical skills including HRM, communication and entrepreneurship.",
+        "⚡ Actively involved in the UX design team where we organized and led workshops to share UX knowledge with students.",
       ],
       website_link: "https://su.edu.pk/",
     },
