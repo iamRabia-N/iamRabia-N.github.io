@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a95e3d78.css",
-    "main.js": "/static/js/main.6676e253.js",
+    "main.css": "/static/css/main.cf7061b6.css",
+    "main.js": "/static/js/main.1605b62b.js",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -33,7 +33,9 @@
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.235a1aa30ba10c7d00d0.ttf",
     "static/media/developerActivity.svg": "/static/media/developerActivity.967f31dad3158d5be07b.svg",
     "static/media/github_logo.png": "/static/media/github_logo.15e591a7397b9ef45656.png",
+    "static/media/publications.jpg": "/static/media/publications.e379f8eb413771a4160f.jpg",
     "static/media/projects_image.svg": "/static/media/projects_image.0a8062569966b4888c7c.svg",
+    "static/media/paper.png": "/static/media/paper.69f38261b76b0d7f94b0.png",
     "static/media/jsFramework.svg": "/static/media/jsFramework.911c595a22a28c7b6f78.svg",
     "static/media/experience.svg": "/static/media/experience.c50c576af78a4172f78d.svg",
     "static/media/images (1).svg": "/static/media/images (1).19fbb91306aa2bd19972.svg",
@@ -45,11 +47,11 @@
     "static/media/projects-img.svg": "/static/media/projects-img.307cdec5954c80de61a5.svg",
     "static/media/education.svg": "/static/media/education.d5cc42f042227db12468.svg",
     "index.html": "/index.html",
-    "main.a95e3d78.css.map": "/static/css/main.a95e3d78.css.map",
-    "main.6676e253.js.map": "/static/js/main.6676e253.js.map"
+    "main.cf7061b6.css.map": "/static/css/main.cf7061b6.css.map",
+    "main.1605b62b.js.map": "/static/js/main.1605b62b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a95e3d78.css",
-    "static/js/main.6676e253.js"
+    "static/css/main.cf7061b6.css",
+    "static/js/main.1605b62b.js"
   ]
 }

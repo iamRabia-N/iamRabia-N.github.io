@@ -373,10 +373,12 @@ const experience = {
           title: "Lecturer",
           company: "Punjab Group Of Colleges",
           logo_path: "pgc.png",
-          duration: "September 2024 - Present",
+          duration: "October 2024 - April 2025",
           location: "On-site",
+          // description:
+          //   "As a lecturer, I teach computer-related subjects to intermediate and bachelor's level students. My goal is to simplify complex topics and make learning easier and more practical for them. As a lecturer, I taught computer-related subjects to intermediate and bachelor's level students. I focused on simplifying complex topics and making learning more accessible and practical throughout my time in this role.",
           description:
-            "As a lecturer, I teach computer-related subjects to intermediate and bachelor's level students. My goal is to simplify complex topics and make learning easier and more practical for them.",
+            "As a lecturer, I taught computer-related subjects to intermediate and bachelor's level students. I focused on simplifying complex topics and making learning more accessible and practical throughout my time in this role.",
           color: "#0879bf",
         },
         {
