@@ -86,9 +86,9 @@ const skills = {
       title: "ML Engineer",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Passionate ML engineer skilled in extracting valuable insights from data.",
+        "⚡ Passionate ML engineer skilled in extracting valuable information from data.",
         "⚡ Proficient in key ML libraries like NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow and Keras.",
-        "⚡ Strong problem-solving skills for in-depth data analysis and model development.",
+        "⚡ Strong problem-solving skills for in-depth data analysis and models development.",
         "⚡ Committed to teamwork and simplifying complex math for practical results.",
       ],
       softwareSkills: [
@@ -159,7 +159,7 @@ const skills = {
       skills: [
         "⚡ Offer readers a relatable and engaging perspective on technical topics through a creative approach.",
         "⚡ Ability to bridge the gap between technical experts and non-technical audiences through well-structured documentations.",
-        "⚡ Strong analytical skillset to translate complex technical details into clear and user-friendly guides, tutorials and manuals.",
+        "⚡ Strong analytical skillset to translate complex technical details into clear guides, tutorials and manuals.",
         "⚡ Experienced in collaborating with cross-functional teams to ensure technical information is accurate, clear and up to date.",
       ],
       softwareSkills: [
@@ -185,7 +185,7 @@ const skills = {
       skills: [
         "⚡ Specialized UX designer with a focus on optimizing digital experiences.",
         "⚡ Proficient in user research, information architecture, wireframing and prototyping.",
-        "⚡ Known for effective collaboration with cross-functional teams to transform complex requirements into visually appealing interfaces.",
+        "⚡ Known for effective collaboration with cross-functional teams to transform requirements into visually appealing interfaces.",
         "⚡ Committed to upholding user-centered design principles to create products that align with business objectives and deliver exceptional user experiences.",
       ],
       softwareSkills: [
@@ -298,7 +298,7 @@ const degrees = {
         "⚡ Studied key subjects like OOP, DSA, DBMS, OS and SQA.",
         "⚡ Completed advanced courses in machine learning, UX design and project management.",
         "⚡ Developed strong non-technical skills including HRM, communication and entrepreneurship.",
-        "⚡ Actively involved in the UX design team where we organized and led workshops to share UX knowledge with students.",
+        "⚡ Actively involved in the UX design team where we organized and led workshops to share UX design knowledge with students.",
       ],
       website_link: "https://su.edu.pk/",
     },
@@ -360,9 +360,9 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Volunteership",
   // description:
-  //   "I have participated as a frontend developer in three hackathons and as a UX designer in two hackathons, collaborating with amazing developers and designers from around the globe. I have a strong passion for contributing to open-source projects and this commitment has led me to actively participate in various open-source communities as a valuable contributor.",
+  //   "I have participated as a frontend developer in three hackathons and as a UX designer in two hackathons, collaborating with amazing developers and designers from around the globe. I have a strong passion for contributing to open-source projects and this commitment has led me to actively participate in various open-source communities as a valuable contributor. I have significant experience in my areas of expertise and research work. I’m passionate about contributing to open-source projects and enjoy working with others to build practical and effective solutions. ",
   description:
-    "I have significant experience as a frontend developer, UX designer, technical writer, machine learning engineer and researcher. I also have a strong passion for contributing to open-source projects. I enjoy working with others and look for opportunities to create meaningful solutions.",
+    "I have significant experience in my areas of expertise and research work with a strong focus on contributing to open-source projects and developing practical, effective solutions.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -370,27 +370,28 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Lecturer",
-          company: "Punjab Group Of Colleges",
-          logo_path: "pgc.png",
-          duration: "October 2024 - April 2025",
-          location: "On-site",
-          // description:
-          //   "As a lecturer, I teach computer-related subjects to intermediate and bachelor's level students. My goal is to simplify complex topics and make learning easier and more practical for them. As a lecturer, I taught computer-related subjects to intermediate and bachelor's level students. I focused on simplifying complex topics and making learning more accessible and practical throughout my time in this role.",
-          description:
-            "As a lecturer, I taught computer-related subjects to intermediate and bachelor's level students. I focused on simplifying complex topics and making learning more accessible and practical throughout my time in this role.",
-          color: "#0879bf",
-        },
-        {
           title: "ML Engineer",
           company: "Freelancer",
           logo_path: "freelance.jpg",
           duration: "March 2024 - Present",
           location: "Remote",
           description:
-            "I'm working as an ML Engineer where my primary focus is on building smart systems and discovering insights from data. I create strong machine learning models, analyze complex datasets and find innovative solutions. Quality and accuracy along with meeting deadlines are my priorities. I am committed to exceeding client expectations in every project.",
+            "I work as an ML Engineer where my primary focus is building smart systems and discovering information from data. I develop robust machine learning models, analyze datasets and create innovative solutions. Quality and accuracy along with meeting deadlines are my priorities. I am committed to exceeding client expectations in every project.",
           color: "#0879bf",
         },
+        {
+          title: "Lecturer",
+          company: "Punjab Group of Colleges",
+          logo_path: "pgc.png",
+          duration: "October 2024 - April 2025",
+          location: "On-site",
+          // description:
+          //   "As a lecturer, I teach computer-related subjects to intermediate and bachelor's level students. My goal is to simplify complex topics and make learning easier and more practical for them. As a lecturer, I taught computer-related subjects to intermediate and bachelor's level students. I focused on simplifying complex topics and making learning more accessible and practical throughout my time in this role.",
+          description:
+            "As a lecturer, I taught computer science subjects to intermediate and bachelor's students. I focused on simplifying complex topics and making learning practical throughout this role.",
+          color: "#0879bf",
+        },
+
         {
           title: "Technical Writer",
           company: "Freelancer",
@@ -409,7 +410,7 @@ const experience = {
           duration: "June 2023 - August 2023",
           location: "Remote",
           description:
-            "I have contributed in open-source projects for 3 months under the program named GSSoC. I have contributed in more than 30 projects, raised more than 180 issues and more than 120 merged pull requests. I have mainly contributed as a UX designer.",
+            "I contributed to open-source projects during the 3-month GSSoC program. My primary role was as a UX designer. I participated in over 30 projects, raised more than 180 issues and merged over 120 pull requests.",
           color: "#4285F4",
         },
         {
@@ -420,7 +421,7 @@ const experience = {
           duration: "June 2023 - July 2023",
           location: "Remote",
           description:
-            "I have contributed in open-source projects for 2 months under the program named SSoC Season2. I have contributed as a frontend developer, bugs fixes and documentations improvement.",
+            "I contributed to various open-source projects mainly as a frontend developer and UX designer. I fixed bugs, added new features, enhanced user interfaces and optimized performance.",
           color: "#D83B01",
         },
       ],
@@ -494,7 +495,7 @@ const experience = {
           company_url: "https://github.com/",
           logo_path: "github_logo.png",
           description:
-            "I am actively contributing to many open-source projects. My contributions include bug fixes, feature requests, improving user experience and formulating proper documentation for the projects.",
+            "During 2023 to 2024, I worked on various open-source projects including bug fixes, new feature implementations, performance improvements and documentation enhancements. I collaborated with maintainers and community members to enhance functionality and ensure code reliability.",
           color: "#181717",
         },
       ],
@@ -506,9 +507,9 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   // description:
-  //   "I've had the opportunity to work on several frontend and UX design projects and I've enjoyed both creating them and sharing the finished work on platforms like GitHub and Behance. For machine learning, I exclusively conduct all of my work on Kaggle. Additionally, I contribute my knowledge to help others on Stack Overflow and Quora.",
+  //   "I've had the opportunity to work on several frontend and UX design projects and I've enjoyed both creating them and sharing the finished work on platforms like GitHub and Behance. For machine learning, I exclusively conduct all of my work on Kaggle. Additionally, I contribute my knowledge to help others on Stack Overflow and Quora. I have worked on various frontend and UX design projects which I’ve had the opportunity to showcase on platforms like GitHub and Behance. Data science projects are conducted exclusively on Kaggle where I engage with real-world data challenges and continuously enhance my expertise. I also contribute actively to the developer community by sharing knowledge on Stack Overflow and Quora. ",
   description:
-    "I have worked on various frontend and UX design projects which I’ve had the opportunity to showcase on platforms like GitHub and Behance. Data science projects are conducted exclusively on Kaggle where I engage with real-world data challenges and continuously enhance my expertise. I also contribute actively to the developer community by sharing knowledge on Stack Overflow and Quora.",
+    "I work on frontend and UX design projects showcased on GitHub and Behance, tackle real-world data science challenges on Kaggle and contribute to the developer community on Stack Overflow and Quora.",
   avatar_image_path: "projects_image.svg",
 };
 // const githubprojectheader = {
@@ -549,8 +550,8 @@ const publications = {
     {
       Category: "(Machine Learning Project)",
       name: "House Prices - Advanced Regression Techniques",
-      Tools: "Libraries Used: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn",
-      createdAt: "Published on: Kaggle, GitHub",
+      Tools: "Libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn",
+      createdAt: "Publication Platforms: Kaggle, GitHub",
       description:
         "A Kaggle competition to predict the sales prices of houses.",
       url:
@@ -559,9 +560,8 @@ const publications = {
     {
       Category: "(Frontend Project)",
       name: "EarthMark",
-      Tools:
-        "Tech Stack Used: HTML, CSS, JavaScript, Flask, Python, Scikit-learn, API",
-      createdAt: "Published on: GitHub",
+      Tools: "Tech Stack: HTML, CSS, JS, Flask, Python, Scikit-learn, API",
+      createdAt: "Publication Platform: GitHub",
       description:
         "EarthMark is a real estate price prediction website built to provide accurate property price estimates. ",
       url: "https://github.com/iamRabia-N/EarthMark",
@@ -569,8 +569,8 @@ const publications = {
     {
       Category: "(UX Design Project)",
       name: "DelightBlossom",
-      Tools: "Tool Used: Figma",
-      createdAt: "Published on: Behance",
+      Tools: "Tool: Figma",
+      createdAt: "Publication Platform: Behance",
       description: "Case study on ecommerce app for cafe.",
       url:
         "https://www.behance.net/gallery/177132547/DelightBlossom-Ecommerce-App-for-Cafe",
@@ -579,8 +579,8 @@ const publications = {
     {
       Category: "(Machine Learning Project)",
       name: "Titanic - Machine Learning from Disaster",
-      Tools: "Libraries Used: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn",
-      createdAt: "Published on: Kaggle",
+      Tools: "Libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn",
+      createdAt: "Publication Platform: Kaggle",
       description:
         "A Kaggle competition to predict the survival of passengers on the Titanic using various ML models.",
       url:
@@ -589,8 +589,8 @@ const publications = {
     {
       Category: "(Frontend Project)",
       name: "HRA",
-      Tools: "Tech Stack Used: HTML, CSS, JavaScript, JQuery",
-      createdAt: "Published on: GitHub",
+      Tools: "Tech Stack: HTML, CSS, JS, JQuery",
+      createdAt: "Publication Platform: GitHub",
       description:
         "HRA is the clothing brand's website that helps users stay updated with the latest collection. ",
       url: "https://github.com/iamRabia-N/HRA",
@@ -598,8 +598,8 @@ const publications = {
     {
       Category: "(UX Design Project)",
       name: "Divine Dwelling",
-      Tools: "Tool Used: Figma",
-      createdAt: "Published on: Behance",
+      Tools: "Tool: Figma",
+      createdAt: "Publication Platform: Behance",
       description: "Case study on responsive website for finding apartments.",
       url:
         "https://www.behance.net/gallery/178602705/Responsive-Website-for-Finding-Apartments",
@@ -615,7 +615,7 @@ const contactPageData = {
     // description:
     //   "I am available on almost every social media platform mentioned below. Feel free to contact me on these platforms. I'm open to collaborating on projects related to data science, UX or frontend development. If you're interested in working together, feel free to reach out. For any queries, questions or assistance, you can reach out to me on LinkedIn.",
     description:
-      "I’m excited to connect with fellow professionals! Feel free to reach out on any social media platform. If you’re passionate about data science, UX design or frontend development, I would appreciate to explore collaboration opportunities. Connect with me on LinkedIn for any questions or inquiries.",
+      "I’m excited to connect with fellow professionals! If your work aligns with my areas of expertise and you're interested in collaborating, connect with me to discuss collaboration opportunities.",
   },
   blogSection: {
     ontactSection: {
@@ -624,7 +624,7 @@ const contactPageData = {
       // description:
       //   "I am available on almost every social media platform mentioned below. Feel free to contact me on these platforms. I'm open to collaborating on projects related to data science, UX or frontend development. If you're interested in working together, feel free to reach out. For any queries, questions or assistance, you can reach out to me on LinkedIn.",
       description:
-        "I’m excited to connect with fellow professionals! Feel free to reach out on any social media platform. If you’re passionate about data science, UX design or frontend development, I would appreciate to explore collaboration opportunities. Connect with me on LinkedIn for any questions or inquiries.",
+        "I’m excited to connect with fellow professionals! If you’re passionate about data science, UX design or frontend development, I would appreciate to explore collaboration opportunities. Connect with me on LinkedIn to discuss collaborations.",
     },
   },
 };
