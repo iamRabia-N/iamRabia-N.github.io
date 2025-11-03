@@ -24,7 +24,7 @@ const greeting = {
   logo_name: "RabiaNaz",
   // nickname: "Rabia",
   subTitle:
-    "I'm a dynamic professional who shapes the future as an ML engineer, simplifies complex tech as a technical writer, creates user experiences as a UX designer and brings visions to life through frontend development.",
+    "I'm a dynamic professional who shapes the future as an ML engineer, simplifies complex tech as a technical writer and creates impactful user experiences as a UX designer.",
   portfolio_repository: "https://iamrabia-n.github.io/",
   githubProfile: "https://github.com/iamRabia-N",
 };
@@ -87,7 +87,7 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Passionate ML engineer skilled in extracting valuable information from data.",
-        "⚡ Proficient in key ML libraries like NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow and Keras.",
+        "⚡ Proficient in key ML libraries including NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow and Keras.",
         "⚡ Strong problem-solving skills for in-depth data analysis and models development.",
         "⚡ Committed to teamwork and simplifying complex math for practical results.",
       ],
@@ -185,8 +185,8 @@ const skills = {
       skills: [
         "⚡ Specialized UX designer with a focus on optimizing digital experiences.",
         "⚡ Proficient in user research, information architecture, wireframing and prototyping.",
-        "⚡ Known for effective collaboration with cross-functional teams to transform requirements into visually appealing interfaces.",
-        "⚡ Committed to upholding user-centered design principles to create products that align with business objectives and deliver exceptional user experiences.",
+        "⚡ Skilled in implementing designs using HTML, CSS, JavaScript, jQuery and Bootstrap.",
+        "⚡ Known for effective collaboration with cross-functional teams to create visually appealing, functional, and user-centered interfaces.",
       ],
       softwareSkills: [
         {
@@ -223,66 +223,66 @@ const skills = {
         },
       ],
     },
-    {
-      title: "Frontend Developer",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Proficient frontend developer skilled in creating responsive and visually compelling web interfaces.",
-        "⚡ Expertise in HTML, CSS and JavaScript with a focus on ensuring a smooth and interactive user experience.",
-        "⚡ Strong problem-solving abilities to address cross-browser compatibility and performance optimization challenges.",
-        "⚡ Committed to enhancing the quality and functionality of web applications.",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "JQuery",
-          fontAwesomeClassname: "devicon:jquery",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Bootstrap",
-          fontAwesomeClassname: "logos:bootstrap",
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Git",
-          fontAwesomeClassname: "devicon:git",
-          style: {
-            color: "#CB3837",
-          },
-        },
-      ],
-    },
+    // {
+    //   title: "Frontend Developer",
+    //   fileName: "DataScienceImg",
+    //   skills: [
+    //     "⚡ Proficient frontend developer skilled in creating responsive and visually compelling web interfaces.",
+    //     "⚡ Expertise in HTML, CSS and JavaScript with a focus on ensuring a smooth and interactive user experience.",
+    //     "⚡ Strong problem-solving abilities to address cross-browser compatibility and performance optimization challenges.",
+    //     "⚡ Committed to enhancing the quality and functionality of web applications.",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "HTML5",
+    //       fontAwesomeClassname: "simple-icons:html5",
+    //       style: {
+    //         color: "#E34F26",
+    //       },
+    //     },
+    //     {
+    //       skillName: "CSS3",
+    //       fontAwesomeClassname: "fa-css3",
+    //       style: {
+    //         color: "#1572B6",
+    //       },
+    //     },
+    //     {
+    //       skillName: "JavaScript",
+    //       fontAwesomeClassname: "simple-icons:javascript",
+    //       style: {
+    //         backgroundColor: "#000000",
+    //         color: "#F7DF1E",
+    //       },
+    //     },
+    //     {
+    //       skillName: "JQuery",
+    //       fontAwesomeClassname: "devicon:jquery",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //         color: "#3776AB",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Bootstrap",
+    //       fontAwesomeClassname: "logos:bootstrap",
+    //     },
+    //     {
+    //       skillName: "NPM",
+    //       fontAwesomeClassname: "simple-icons:npm",
+    //       style: {
+    //         color: "#CB3837",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Git",
+    //       fontAwesomeClassname: "devicon:git",
+    //       style: {
+    //         color: "#CB3837",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -376,7 +376,7 @@ const experience = {
           duration: "March 2024 - Present",
           location: "Remote",
           description:
-            "I work as an ML Engineer where my primary focus is building smart systems and discovering information from data. I develop robust machine learning models, analyze datasets and create innovative solutions. Quality and accuracy along with meeting deadlines are my priorities. I am committed to exceeding client expectations in every project.",
+            "I work as an ML Engineer where my primary focus is building smart systems and discovering information from data. I develop machine learning models, analyze datasets and create innovative solutions. Quality and accuracy along with meeting deadlines are my priorities.",
           color: "#0879bf",
         },
         {
@@ -509,7 +509,7 @@ const projectsHeader = {
   // description:
   //   "I've had the opportunity to work on several frontend and UX design projects and I've enjoyed both creating them and sharing the finished work on platforms like GitHub and Behance. For machine learning, I exclusively conduct all of my work on Kaggle. Additionally, I contribute my knowledge to help others on Stack Overflow and Quora. I have worked on various frontend and UX design projects which I’ve had the opportunity to showcase on platforms like GitHub and Behance. Data science projects are conducted exclusively on Kaggle where I engage with real-world data challenges and continuously enhance my expertise. I also contribute actively to the developer community by sharing knowledge on Stack Overflow and Quora. ",
   description:
-    "I work on frontend and UX design projects showcased on GitHub and Behance, tackle real-world data science challenges on Kaggle and contribute to the developer community on Stack Overflow and Quora.",
+    "I work on end-to-end projects published on GitHub, showcase UX design projects on Behance, tackle real-world data science challenges on Kaggle and contribute to the developer community on Stack Overflow and Quora.",
   avatar_image_path: "projects_image.svg",
 };
 // const githubprojectheader = {
@@ -548,22 +548,13 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
-      Category: "(Machine Learning Project)",
-      name: "House Prices - Advanced Regression Techniques",
-      Tools: "Libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn",
-      createdAt: "Publication Platforms: Kaggle, GitHub",
-      description:
-        "A Kaggle competition to predict the sales prices of houses.",
-      url:
-        "https://github.com/iamRabia-N/HousePrices_AdvancedRegressionTechniques/tree/main",
-    },
-    {
-      Category: "(Frontend Project)",
+      Category: "(End-to-End Project)",
       name: "EarthMark",
-      Tools: "Tech Stack: HTML, CSS, JS, Flask, Python, Scikit-learn, API",
+      Tools:
+        "Tech Stack: Figma, HTML, CSS, JS, Flask, Python, Scikit-learn, API",
       createdAt: "Publication Platform: GitHub",
       description:
-        "EarthMark is a real estate price prediction website built to provide accurate property price estimates. ",
+        "A website that provides accurate real estate price predictions.",
       url: "https://github.com/iamRabia-N/EarthMark",
     },
     {
@@ -577,23 +568,24 @@ const publications = {
     },
 
     {
-      Category: "(Machine Learning Project)",
-      name: "Titanic - Machine Learning from Disaster",
-      Tools: "Libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn",
-      createdAt: "Publication Platform: Kaggle",
+      Category: "(Technical Writing Article)",
+      name: "The Role of Visual Hierarchy in User Experience",
+
+      createdAt: "Publication Platform: LinkedIn, Medium",
       description:
-        "A Kaggle competition to predict the survival of passengers on the Titanic using various ML models.",
+        "Explains how visual hierarchy improves UX and guides users' attention.",
       url:
-        "https://www.kaggle.com/code/rabianaz22/titanic-machine-learning-from-disaster",
+        "https://www.linkedin.com/pulse/role-visual-hierarchy-user-experience-rabia-naz-sdqpc/",
     },
     {
-      Category: "(Frontend Project)",
-      name: "HRA",
-      Tools: "Tech Stack: HTML, CSS, JS, JQuery",
-      createdAt: "Publication Platform: GitHub",
+      Category: "(Machine Learning Project)",
+      name: "House Prices - Advanced Regression Techniques",
+      Tools: "Libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn",
+      createdAt: "Publication Platforms: Kaggle, GitHub",
       description:
-        "HRA is the clothing brand's website that helps users stay updated with the latest collection. ",
-      url: "https://github.com/iamRabia-N/HRA",
+        "A Kaggle competition to predict the sales prices of houses.",
+      url:
+        "https://www.kaggle.com/code/rabianaz22/house-prices-advanced-regression-techniques",
     },
     {
       Category: "(UX Design Project)",
@@ -603,6 +595,14 @@ const publications = {
       description: "Case study on responsive website for finding apartments.",
       url:
         "https://www.behance.net/gallery/178602705/Responsive-Website-for-Finding-Apartments",
+    },
+    {
+      Category: "(Technical Writing Article)",
+      name: "User Research in UX Design",
+      createdAt: "Publication Platform: LinkedIn, Medium",
+      description: "Explains key methods of user research in UX design.",
+      url:
+        "https://medium.com/design-bootcamp/user-research-in-ux-design-6f67227e5639",
     },
   ],
 };
