@@ -373,12 +373,23 @@ const experience = {
           title: "ML Engineer",
           company: "Freelancer",
           logo_path: "freelance.jpg",
-          duration: "March 2024 - Present",
+          duration: "March 2024 - September 2025",
           location: "Remote",
           description:
-            "I work as an ML Engineer where my primary focus is building smart systems and discovering information from data. I develop machine learning models, analyze datasets and create innovative solutions. Quality and accuracy along with meeting deadlines are my priorities.",
+            "As an ML Engineer, my primary focus was building smart systems and discovering information from data. I developed machine learning models, analyzed datasets and created innovative solutions. Quality and accuracy along with meeting deadlines were my priorities.",
           color: "#0879bf",
         },
+        // experiences: [
+        // {
+        //   title: "ML Engineer",
+        //   company: "Freelancer",
+        //   logo_path: "freelance.jpg",
+        //   duration: "March 2024 - Present",
+        //   location: "Remote",
+        //   description:
+        //     "I work as an ML Engineer where my primary focus is building smart systems and discovering information from data. I develop machine learning models, analyze datasets and create innovative solutions. Quality and accuracy along with meeting deadlines are my priorities.",
+        //   color: "#0879bf",
+        // },
         {
           title: "Lecturer",
           company: "Punjab Group of Colleges",
