@@ -376,7 +376,7 @@ const experience = {
           duration: "March 2024 - September 2025",
           location: "Remote",
           description:
-            "As an ML Engineer, my primary focus was building smart systems and discovering information from data. I developed machine learning models, analyzed datasets and created innovative solutions. Quality and accuracy along with meeting deadlines were my priorities.",
+            "As an ML Engineer, my primary focus was building smart systems and discovering information from data. I developed machine learning models, analyzed datasets and created solutions. Quality and accuracy along with meeting deadlines were my priorities.",
           color: "#0879bf",
         },
         // experiences: [
