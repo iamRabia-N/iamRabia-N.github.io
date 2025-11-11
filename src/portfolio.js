@@ -87,7 +87,7 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Passionate ML engineer skilled in extracting valuable information from data.",
-        "⚡ Proficient in key ML libraries including NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow and Keras.",
+        "⚡ Proficient in NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow and Keras.",
         "⚡ Strong problem-solving skills for in-depth data analysis and models development.",
         "⚡ Committed to teamwork and simplifying complex math for practical results.",
       ],
@@ -183,10 +183,10 @@ const skills = {
       title: "UX Designer",
       fileName: "DesignImg",
       skills: [
-        "⚡ Specialized UX designer with a focus on optimizing digital experiences.",
+        "⚡ Detail-oriented UX designer with a focus on optimizing digital experiences.",
         "⚡ Proficient in user research, information architecture, wireframing and prototyping.",
         "⚡ Skilled in implementing designs using HTML, CSS, JavaScript, jQuery and Bootstrap.",
-        "⚡ Known for effective collaboration with cross-functional teams to create visually appealing, functional, and user-centered interfaces.",
+        "⚡ Known for effective collaboration with cross-functional teams to create visually appealing, functional and user-centered interfaces.",
       ],
       softwareSkills: [
         {
@@ -373,12 +373,23 @@ const experience = {
           title: "ML Engineer",
           company: "Freelancer",
           logo_path: "freelance.jpg",
-          duration: "March 2024 - Present",
+          duration: "March 2024 - September 2025",
           location: "Remote",
           description:
-            "I work as an ML Engineer where my primary focus is building smart systems and discovering information from data. I develop machine learning models, analyze datasets and create innovative solutions. Quality and accuracy along with meeting deadlines are my priorities.",
+            "As an ML Engineer, my primary focus was building smart systems and discovering information from data. I developed machine learning models, analyzed datasets and created innovative solutions. Quality and accuracy along with meeting deadlines were my priorities.",
           color: "#0879bf",
         },
+        // experiences: [
+        // {
+        //   title: "ML Engineer",
+        //   company: "Freelancer",
+        //   logo_path: "freelance.jpg",
+        //   duration: "March 2024 - Present",
+        //   location: "Remote",
+        //   description:
+        //     "I work as an ML Engineer where my primary focus is building smart systems and discovering information from data. I develop machine learning models, analyze datasets and create innovative solutions. Quality and accuracy along with meeting deadlines are my priorities.",
+        //   color: "#0879bf",
+        // },
         {
           title: "Lecturer",
           company: "Punjab Group of Colleges",
