@@ -35,7 +35,7 @@ class ExperienceCard extends Component {
           {index !== totalCards - 1 && (
             <div
               style={{
-                height: 190,
+                height: "100%",
                 width: 2,
                 backgroundColor: `${theme.headerColor}`,
                 position: "absolute",
@@ -45,7 +45,7 @@ class ExperienceCard extends Component {
           )}
         </div>
         <Fade right duration={2000} distance="40px">
-          <div style={{ display: "flex", flexDirection: "row" }}>
+          <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>
             <div
               className="arrow-left"
               style={{ borderRight: `10px solid ${theme.body}` }}

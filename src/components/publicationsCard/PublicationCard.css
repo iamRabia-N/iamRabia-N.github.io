@@ -1,12 +1,13 @@
 .publication-card-div {
   color: rgb(88, 96, 105);
-  /* background-color: rgb(255, 255, 255); 
-  background-color: #d7f2fe !important;*/
   background-color: #d8f0fb !important;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding: 2rem;
   cursor: pointer;
   flex: 1 1 25%;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
 }
 
 .publication-card-div:hover {
@@ -46,15 +47,18 @@
   text-align: left;
   display: -webkit-box;
   font-family: "Google Sans Regular";
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
   -webkit-box-orient: vertical;
   margin-top: 0.8rem;
   color: #607d8b !important;
 }
+
 .publications-heading-text {
   font-size: 40px !important;
   margin-top: 1rem !important;
 }
+
 .publication-details {
   display: flex;
   flex-direction: row;
@@ -86,9 +90,11 @@ p.publication-details.subTitle {
   .publication-card-div {
     flex: 1 1 100%;
   }
+
   .publications-heading-text {
     font-size: 30px !important;
   }
+
   .publication-name {
     font-size: 16px;
   }

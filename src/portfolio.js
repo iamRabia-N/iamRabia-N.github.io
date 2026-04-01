@@ -10,7 +10,7 @@ const seo = {
   title: "Rabia's Portfolio",
   description:
     // "I'm a dynamic professional, shaping the future as an ML researcher, simplifying complex tech as a technical writer, creating user experiences as a UX designer and bringing visions to life through frontend development. Shaping Innovation at the Intersection of Data, Words, Design and Code.",
-    "I'm a dynamic professional who shapes the future as an ML engineer, simplifies complex tech as a technical writer, creates user experiences as a UX designer and brings visions to life through frontend development.",
+    "I'm an ML engineer with a background in technical writing and UX design. I solve real-world problems, simplify complex ideas and design meaningful experiences.",
   og: {
     title: "Rabia Naz Portfolio",
     type: "website",
@@ -24,7 +24,7 @@ const greeting = {
   logo_name: "RabiaNaz",
   // nickname: "Rabia",
   subTitle:
-    "I'm a dynamic professional who shapes the future as an ML engineer, simplifies complex tech as a technical writer and creates impactful user experiences as a UX designer.",
+    "I'm an ML engineer with a background in technical writing and UX design. I solve real-world problems, simplify complex ideas and design meaningful experiences.",
   portfolio_repository: "https://iamrabia-n.github.io/",
   githubProfile: "https://github.com/iamRabia-N",
 };
@@ -37,46 +37,46 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "Behance",
-    link: "https://www.behance.net/iamRabia-N",
-    fontAwesomeIcon: "fa-behance",
-    backgroundColor: "#0077B5",
-  },
-  {
     name: "Github",
     link: "https://github.com/iamRabia-N",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
-    name: "Medium",
-    link: "https://medium.com/@Rabia_Naz",
-    fontAwesomeIcon: "fa-medium", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "black", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
-    name: "Quora",
-    link: "https://www.quora.com/profile/Rabia-Naz-76",
-    fontAwesomeIcon: "fa-quora", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#B92B27", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Kaggle",
     link: "https://www.kaggle.com/rabianaz22",
-    fontAwesomeIcon: "fa-kaggle", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#20BEFF", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
-    name: "Stack Overflow",
-    link: "https://stackoverflow.com/users/22688262/rabia-naz",
-    fontAwesomeIcon: "fa-stack-overflow", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF9900", // Reference https://simpleicons.org/?q=youtube
+    fontAwesomeIcon: "fa-kaggle",
+    backgroundColor: "#20BEFF",
   },
   {
     name: "ORCID",
     link: "https://orcid.org/0009-0001-2418-1972",
-    fontAwesomeIcon: "fa-orcid", // Reference https://fontawesome.com/icons/youtube?style=brands
+    fontAwesomeIcon: "fa-orcid",
     backgroundColor: "#A6CE39",
+  },
+  {
+    name: "Stack Overflow",
+    link: "https://stackoverflow.com/users/22688262/rabia-naz",
+    fontAwesomeIcon: "fa-stack-overflow",
+    backgroundColor: "#FF9900",
+  },
+  {
+    name: "Medium",
+    link: "https://medium.com/@Rabia_Naz",
+    fontAwesomeIcon: "fa-medium",
+    backgroundColor: "black",
+  },
+  {
+    name: "Behance",
+    link: "https://www.behance.net/iamRabia-N",
+    fontAwesomeIcon: "fa-behance",
+    backgroundColor: "#0077B5",
+  },
+  {
+    name: "Quora",
+    link: "https://www.quora.com/profile/Rabia-Naz-76",
+    fontAwesomeIcon: "fa-quora",
+    backgroundColor: "#B92B27",
   },
 ];
 
@@ -86,11 +86,11 @@ const skills = {
       title: "ML Engineer",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Passionate ML engineer skilled in extracting valuable information from data.",
-        "⚡ Proficient in NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow and Keras.",
-        "⚡ Strong problem-solving skills for in-depth data analysis and models development.",
-        "⚡ Committed to teamwork and simplifying complex math for practical results.",
+        "⚡ I build ML models from data exploration to deployment.",
+        "⚡ Experience in core ML areas including classification, regression, clustering, time series, DL and NLP.",
+        "⚡ I work in both research and applied ML from papers to pipelines.",
       ],
+
       softwareSkills: [
         {
           skillName: "Python",
@@ -144,11 +144,10 @@ const skills = {
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "PyTorch",
+          fontAwesomeClassname: "devicon:pytorch",
           style: {
-            backgroundColor: "white",
-            color: "#D00000",
+            backgroundColor: "transparent",
           },
         },
       ],
@@ -157,24 +156,30 @@ const skills = {
       title: "Technical Writer",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Offer readers a relatable and engaging perspective on technical topics through a creative approach.",
-        "⚡ Ability to bridge the gap between technical experts and non-technical audiences through well-structured documentations.",
-        "⚡ Strong analytical skillset to translate complex technical details into clear guides, tutorials and manuals.",
-        "⚡ Experienced in collaborating with cross-functional teams to ensure technical information is accurate, clear and up to date.",
+        "⚡ I write articles and technical documentation.",
+        "⚡ Experience in writing across ML, AI and UX design domains.",
+        "⚡ I make complex technical topics clear and accessible for any audience.",
       ],
       softwareSkills: [
         {
-          skillName: "LinkedIn",
-          fontAwesomeClassname: "devicon:linkedin",
+          skillName: "LaTeX",
+          fontAwesomeClassname: "devicon:latex",
           style: {
-            color: "#4285F4",
+            backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Medium",
-          fontAwesomeClassname: "mingcute:medium-fill",
+          skillName: "Mendeley",
+          fontAwesomeClassname: "simple-icons:mendeley",
           style: {
-            color: "black",
+            color: "#9D1620",
+          },
+        },
+        {
+          skillName: "Markdown",
+          fontAwesomeClassname: "devicon:markdown",
+          style: {
+            color: "#000000",
           },
         },
       ],
@@ -183,10 +188,9 @@ const skills = {
       title: "UX Designer",
       fileName: "DesignImg",
       skills: [
-        "⚡ Detail-oriented UX designer with a focus on optimizing digital experiences.",
-        "⚡ Proficient in user research, information architecture, wireframing and prototyping.",
-        "⚡ Skilled in implementing designs using HTML, CSS, JavaScript, jQuery and Bootstrap.",
-        "⚡ Known for effective collaboration with cross-functional teams to create visually appealing, functional and user-centered interfaces.",
+        "⚡ I design user interfaces from research and wireframes to high-fidelity prototypes.",
+        "⚡ Experience in user research, information architecture and usability testing.",
+        "⚡ I also implement designs into functional and responsive interfaces.",
       ],
       softwareSkills: [
         {
@@ -204,22 +208,8 @@ const skills = {
           },
         },
         {
-          skillName: "Webflow",
-          fontAwesomeClassname: "skill-icons:webflow",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
           skillName: "Canva",
           fontAwesomeClassname: "devicon:canva",
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "black",
-          },
         },
       ],
     },
@@ -295,10 +285,9 @@ const degrees = {
       alt_name: "University of Sargodha",
       duration: "2020 - 2024",
       descriptions: [
-        "⚡ Studied key subjects like OOP, DSA, DBMS, OS and SQA.",
-        "⚡ Completed advanced courses in machine learning, UX design and project management.",
-        "⚡ Developed strong non-technical skills including HRM, communication and entrepreneurship.",
-        "⚡ Actively involved in the UX design team where we organized and led workshops to share UX design knowledge with students.",
+        "⚡ Coursework in data structures, algorithms, linear algebra, probability, statistics, data mining and database systems.",
+        "⚡ Studied subjects across software engineering, security, databases and human-computer interaction.",
+        "⚡ Led UX design workshops as part of the university's UX design team.",
       ],
       website_link: "https://su.edu.pk/",
     },
@@ -336,7 +325,7 @@ const certifications = {
     },
     {
       title: "Google UX Design Professional Certificate",
-      subtitle: "7-Course Series",
+      subtitle: "8-Course Series",
       logo_path: "google_logo.png",
       certificate_link:
         "https://www.coursera.org/professional-certificates/google-ux-design",
@@ -344,11 +333,11 @@ const certifications = {
       color_code: "#1F70C199",
     },
     {
-      title: "Foundations of Project Management",
-      // subtitle: "1-Course",
+      title: "Google Project Management Professional Certificate",
+      subtitle: "7-Course Series",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/learn/project-management-foundations",
+        "https://www.coursera.org/professional-certificates/google-project-management",
       alt_name: "Google",
       color_code: "#1F70C199",
     },
@@ -362,7 +351,7 @@ const experience = {
   // description:
   //   "I have participated as a frontend developer in three hackathons and as a UX designer in two hackathons, collaborating with amazing developers and designers from around the globe. I have a strong passion for contributing to open-source projects and this commitment has led me to actively participate in various open-source communities as a valuable contributor. I have significant experience in my areas of expertise and research work. I’m passionate about contributing to open-source projects and enjoy working with others to build practical and effective solutions. ",
   description:
-    "I have significant experience in my areas of expertise and research work with a strong focus on contributing to open-source projects and developing practical, effective solutions.",
+    "I combine hands-on ML work with academic research and open-source contributions.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -376,20 +365,9 @@ const experience = {
           duration: "March 2024 - September 2025",
           location: "Remote",
           description:
-            "As an ML Engineer, my primary focus was building smart systems and discovering information from data. I developed machine learning models, analyzed datasets and created solutions. Quality and accuracy along with meeting deadlines were my priorities.",
+            "Developed ML models, analyzed datasets and built data-driven solutions for clients. Worked on various ML tasks with a focus on accuracy and timely delivery.",
           color: "#0879bf",
         },
-        // experiences: [
-        // {
-        //   title: "ML Engineer",
-        //   company: "Freelancer",
-        //   logo_path: "freelance.jpg",
-        //   duration: "March 2024 - Present",
-        //   location: "Remote",
-        //   description:
-        //     "I work as an ML Engineer where my primary focus is building smart systems and discovering information from data. I develop machine learning models, analyze datasets and create innovative solutions. Quality and accuracy along with meeting deadlines are my priorities.",
-        //   color: "#0879bf",
-        // },
         {
           title: "Lecturer",
           company: "Punjab Group of Colleges",
@@ -399,7 +377,7 @@ const experience = {
           // description:
           //   "As a lecturer, I teach computer-related subjects to intermediate and bachelor's level students. My goal is to simplify complex topics and make learning easier and more practical for them. As a lecturer, I taught computer-related subjects to intermediate and bachelor's level students. I focused on simplifying complex topics and making learning more accessible and practical throughout my time in this role.",
           description:
-            "As a lecturer, I taught computer science subjects to intermediate and bachelor's students. I focused on simplifying complex topics and making learning practical throughout this role.",
+            "Taught computer science subjects to intermediate and bachelor's students. Focused on simplifying complex topics and making learning practical.",
           color: "#0879bf",
         },
 
@@ -410,31 +388,31 @@ const experience = {
           duration: "August 2023 - February 2024",
           location: "Remote",
           description:
-            "I worked as a contract-based technical writer with a focus on creating research analysis papers, articles and documentations. I dedicated myself to maintaining the highest standards of quality, accuracy and consistency in all written materials while also ensuring timely delivery and exceeding client expectations.",
+            "Worked as a contract-based technical writer with an R&D team. Created technical documentation and reports for the team.",
           color: "#0879bf",
         },
         {
-          title: "GirlScript Summer of Code",
-          company: "GirlScript Foundation",
-          company_url: "https://about.google/",
+          title: "UX Designer",
+          company: "GirlScript Summer of Code",
+          company_url: "https://summerofcode.withgoogle.com/",
           logo_path: "gssoc.png",
           duration: "June 2023 - August 2023",
           location: "Remote",
           description:
-            "I contributed to open-source projects during the 3-month GSSoC program. My primary role was as a UX designer. I participated in over 30 projects, raised more than 180 issues and merged over 120 pull requests.",
+            "Contributed to 30+ open-source projects as a UX designer during the 3-month program. Raised 180+ issues and merged 120+ pull requests.",
           color: "#4285F4",
         },
-        {
-          title: "Social Summer of Code",
-          company: "Social",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "ssoc.png",
-          duration: "June 2023 - July 2023",
-          location: "Remote",
-          description:
-            "I contributed to various open-source projects mainly as a frontend developer and UX designer. I fixed bugs, added new features, enhanced user interfaces and optimized performance.",
-          color: "#D83B01",
-        },
+        // {
+        //   title: "UX Designer",
+        //   company: "Social Summer of Code",
+        //   company_url: "https://www.linkedin.com/company/getsocialnow/",
+        //   logo_path: "ssoc.png",
+        //   duration: "June 2023 - July 2023",
+        //   location: "Remote",
+        //   description:
+        //     "Contributed to open-source projects by fixing design issues, adding features and improving user interfaces.",
+        //   color: "#D83B01",
+        // },
       ],
     },
     {
@@ -451,7 +429,7 @@ const experience = {
           duration: "16th September 2024",
           location: "Journal Paper",
           description:
-            "The paper explains the security challenges in cloud computing and discusses solutions to address them. It highlights issues like data breaches, DDoS attacks and weak encryption methods while offering techniques like AI-based threat detection and advanced encryption to enhance cloud security.",
+            "Analyzed cloud computing security challenges including data breaches, DDoS attacks and weak encryption across different cloud models. Presented a broader perspective on advanced security frameworks and outlined strategies for building secure, reliable and cost-effective cloud infrastructure.",
           color: "#181717",
         },
         {
@@ -459,26 +437,26 @@ const experience = {
           company:
             "International Journal of Innovations in Science & Technology",
           company_url:
-            "https://journal.50sea.com/index.php/IJIST/article/view/951/1498",
+            "https://journal.50sea.com/index.php/IJIST/article/view/951/",
           logo_path: "paper.png",
           duration: "25th July 2024",
           location: "Journal Paper",
           description:
-            "The paper explains how machine learning and deep learning techniques are applied to predict real estate prices. It explores different algorithms to tackle challenges such as market fluctuations and data complexity in order to improve the accuracy of property value predictions.",
+            "Applied ML and DL techniques on a dataset of 168,000 Pakistani property entries to improve real estate price prediction. Tested Linear Regression, Gradient Boosting, Random Forest, CNN and KNN where KNN achieved the best results with an RMSE of 13.79 and R-squared of 0.85.",
           color: "#181717",
         },
         {
           title:
             "Machine Learning, Deep Learning, and Hybrid Approaches in Real Estate Price Prediction: A Comprehensive Systematic Literature Review",
           company:
-            "    Proceedings of Pakistan Academy of Sciences: A Physical and Computational Sciences",
+            "Proceedings of Pakistan Academy of Sciences: A Physical and Computational Sciences",
           company_url:
-            "https://ppaspk.org/index.php/PPAS-A/article/view/1356/796",
+            "https://www.researchgate.net/publication/384164674_Machine_Learning_Deep_Learning_and_Hybrid_Approaches_in_Real_Estate_Price_Prediction_A_Comprehensive_Systematic_Literature_Review",
           logo_path: "paper.png",
           duration: "28th June 2024",
           location: "Journal Paper",
           description:
-            "The paper reviews different methods used to predict real estate prices focusing on machine learning, deep learning and hybrid techniques. It analyzes both qualitative and quantitative factors that affect property values and identifies gaps in current research.",
+            "Categorized real estate price prediction approaches into ML, DL and hybrid models through a systematic review. Found that ML models perform well on small datasets, DL handles complex data better and hybrid models offer the highest prediction accuracy.",
           color: "#181717",
         },
         {
@@ -487,12 +465,12 @@ const experience = {
           company:
             "1st International Conference on Women Development in Engineering Science & Technology",
           company_url:
-            "https://wdest.muet.edu.pk/wp-content/uploads/2023/10/Abstract-Book_WD-EST23-Full.pdf ",
+            "https://www.researchgate.net/publication/384041185_Enhancing_Access_to_Legal_Information_AI-Driven_Constitution_of_Pakistan_Search_Engine",
           logo_path: "paper.png",
           duration: "3rd - 5th October 2023",
           location: "Conference Paper",
           description:
-            "The paper proposes an AI-driven search engine to enhance access to the Pakistani Constitution. It allows efficient information retrieval for law enforcement, NGOs and the public by using neural networks to process and vectorize data for improved search results.",
+            "Built a neural network-based search engine for the Pakistani Constitution using information retrieval, tokenization and cosine similarity. The system vectorizes user queries and matches them against the dataset to enable efficient legal information retrieval.",
           color: "#181717",
         },
       ],
@@ -506,7 +484,7 @@ const experience = {
           company_url: "https://github.com/",
           logo_path: "github_logo.png",
           description:
-            "During 2023 to 2024, I worked on various open-source projects including bug fixes, new feature implementations, performance improvements and documentation enhancements. I collaborated with maintainers and community members to enhance functionality and ensure code reliability.",
+            "Contributed to various open-source projects from 2023 to 2024. Worked on bug fixes, new features, performance improvements and documentation. Collaborated with project maintainers and developers to review code, resolve issues and improve project quality.",
           color: "#181717",
         },
       ],
@@ -520,7 +498,7 @@ const projectsHeader = {
   // description:
   //   "I've had the opportunity to work on several frontend and UX design projects and I've enjoyed both creating them and sharing the finished work on platforms like GitHub and Behance. For machine learning, I exclusively conduct all of my work on Kaggle. Additionally, I contribute my knowledge to help others on Stack Overflow and Quora. I have worked on various frontend and UX design projects which I’ve had the opportunity to showcase on platforms like GitHub and Behance. Data science projects are conducted exclusively on Kaggle where I engage with real-world data challenges and continuously enhance my expertise. I also contribute actively to the developer community by sharing knowledge on Stack Overflow and Quora. ",
   description:
-    "I work on end-to-end projects published on GitHub, showcase UX design projects on Behance, tackle real-world data science challenges on Kaggle and contribute to the developer community on Stack Overflow and Quora.",
+    "My projects cover different areas of my work. Each one is published on the platform that fits it best.",
   avatar_image_path: "projects_image.svg",
 };
 // const githubprojectheader = {
@@ -559,61 +537,61 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
-      Category: "(End-to-End Project)",
-      name: "EarthMark",
-      Tools:
-        "Tech Stack: Figma, HTML, CSS, JS, Flask, Python, Scikit-learn, API",
-      createdAt: "Publication Platform: GitHub",
+      Category: "(AI Project)",
+      name: "NavSecOps — NAVIGUIDE",
+      Tools: "Tools: Python, YAML, GeoJSON, Gemini API, Claude API",
+      // createdAt: "Publication Platform: Devpost, GitLab",
       description:
-        "A website that provides accurate real estate price predictions.",
+        "Maritime route intelligence system in GitLab. Built validation, risk scoring and skipper briefing pipelines using Gemini and Claude APIs.",
+      url: "https://devpost.com/software/naviguide-for-berry-mappemonde-pe9ig6",
+    },
+    {
+      Category: "(ML Project)",
+      name: "EarthMark",
+      Tools: "Tech Stack: Python, Scikit-learn, Flask, Figma, API",
+      // createdAt: "Publication Platform: GitHub",
+      description:
+        "End-to-end ML web app for real estate price prediction. Built the full pipeline from data analysis to a deployed Flask application.",
       url: "https://github.com/iamRabia-N/EarthMark",
+    },
+    {
+      Category: "(DL Project)",
+      name: "Fashion MNIST - Deep Learning Models Comparison",
+      Tools:
+        "Libraries: TensorFlow, Keras, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn",
+      // createdAt: "Publication Platform: Kaggle",
+      description:
+        "Compared Dense, CNN and Residual CNN on Fashion MNIST. Built an ensemble with 94.5% accuracy and per-class performance analysis.",
+      url:
+        "https://www.kaggle.com/code/rabianaz22/fashion-mnist-deep-learning-models-comparison",
+    },
+    {
+      Category: "(UX Design Project)",
+      name: "Nexus",
+      Tools: "Tools: Figma, Sass, Angular Material",
+      // createdAt: "Publication Platform: Devpost",
+      description:
+        "Cloud storage dashboard with support for multiple providers and real-time monitoring of usage metrics. Designed the UI and created responsive layouts.",
+      url: "https://devpost.com/software/nexus-4wax5h",
     },
     {
       Category: "(UX Design Project)",
       name: "DelightBlossom",
       Tools: "Tool: Figma",
-      createdAt: "Publication Platform: Behance",
-      description: "Case study on ecommerce app for cafe.",
+      // createdAt: "Publication Platform: Behance",
+      description:
+        "Complete UX case study for a cafe ecommerce app. Covered the full design thinking process from user research to high-fidelity prototype.",
       url:
         "https://www.behance.net/gallery/177132547/DelightBlossom-Ecommerce-App-for-Cafe",
     },
-
     {
-      Category: "(Technical Writing Article)",
+      Category: "(Technical Writing)",
       name: "The Role of Visual Hierarchy in User Experience",
-
-      createdAt: "Publication Platform: LinkedIn, Medium",
+      // createdAt: "Publication Platform: LinkedIn, Medium",
       description:
-        "Explains how visual hierarchy improves UX and guides users' attention.",
+        "Explains how layout, typography, color, size and space shape user experience with real-world examples from Google, Apple and Airbnb.",
       url:
         "https://www.linkedin.com/pulse/role-visual-hierarchy-user-experience-rabia-naz-sdqpc/",
-    },
-    {
-      Category: "(Machine Learning Project)",
-      name: "House Prices - Advanced Regression Techniques",
-      Tools: "Libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn",
-      createdAt: "Publication Platforms: Kaggle, GitHub",
-      description:
-        "A Kaggle competition to predict the sales prices of houses.",
-      url:
-        "https://www.kaggle.com/code/rabianaz22/house-prices-advanced-regression-techniques",
-    },
-    {
-      Category: "(UX Design Project)",
-      name: "Divine Dwelling",
-      Tools: "Tool: Figma",
-      createdAt: "Publication Platform: Behance",
-      description: "Case study on responsive website for finding apartments.",
-      url:
-        "https://www.behance.net/gallery/178602705/Responsive-Website-for-Finding-Apartments",
-    },
-    {
-      Category: "(Technical Writing Article)",
-      name: "User Research in UX Design",
-      createdAt: "Publication Platform: LinkedIn, Medium",
-      description: "Explains key methods of user research in UX design.",
-      url:
-        "https://medium.com/design-bootcamp/user-research-in-ux-design-6f67227e5639",
     },
   ],
 };
@@ -626,7 +604,7 @@ const contactPageData = {
     // description:
     //   "I am available on almost every social media platform mentioned below. Feel free to contact me on these platforms. I'm open to collaborating on projects related to data science, UX or frontend development. If you're interested in working together, feel free to reach out. For any queries, questions or assistance, you can reach out to me on LinkedIn.",
     description:
-      "I’m excited to connect with fellow professionals! If your work aligns with my areas of expertise and you're interested in collaborating, connect with me to discuss collaboration opportunities.",
+      "I'm open to collaborations on projects and research. If your work aligns with my areas of expertise, reach out to discuss collaboration opportunities.",
   },
   blogSection: {
     ontactSection: {

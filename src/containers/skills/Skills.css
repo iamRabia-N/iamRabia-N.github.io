@@ -1,6 +1,8 @@
 .skills-main-div {
   display: flex;
   overflow: hidden;
+  min-height: 380px;
+  align-items: center;
 }
 
 .skills-header {
@@ -25,10 +27,19 @@
   margin-top: -2rem;
 }
 
+.skills-main-div {
+  display: flex;
+  overflow: hidden;
+  min-height: 450px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .skills-image-div > * {
   max-width: 100%;
-  height: auto;
-  margin-top: 70px;
+  height: 460px;
+  margin-top: 40px;
+  object-fit: contain;
 }
 
 .skills-heading {
