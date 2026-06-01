@@ -32,7 +32,8 @@ class ExperienceCard extends Component {
               zIndex: 100,
             }}
           />
-          {index !== totalCards - 1 && (
+          {/* Connector line removed as requested */}
+          {/* {index !== totalCards - 1 && (
             <div
               style={{
                 height: "100%",
@@ -42,7 +43,7 @@ class ExperienceCard extends Component {
                 marginTop: 20,
               }}
             />
-          )}
+          )} */}
         </div>
         <Fade right duration={2000} distance="40px">
           <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>

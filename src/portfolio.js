@@ -1,16 +1,11 @@
-/* Change this file to get your personal Porfolio */
-
-// Website related settings
 const settings = {
-  isSplash: false, // Change this to false if you don't want Splash screen.
+  isSplash: false,
 };
 
-//SEO Related settings
 const seo = {
   title: "Rabia's Portfolio",
   description:
-    // "I'm a dynamic professional, shaping the future as an ML researcher, simplifying complex tech as a technical writer, creating user experiences as a UX designer and bringing visions to life through frontend development. Shaping Innovation at the Intersection of Data, Words, Design and Code.",
-    "I'm an ML engineer with a background in technical writing and UX design. I solve real-world problems, simplify complex ideas and design meaningful experiences.",
+    "I build machine learning systems and study how they behave under real-world conditions.",
   og: {
     title: "Rabia Naz Portfolio",
     type: "website",
@@ -18,29 +13,27 @@ const seo = {
   },
 };
 
-//Home Page
 const greeting = {
   title: "Hi👋, I'm Rabia Naz",
   logo_name: "RabiaNaz",
-  // nickname: "Rabia",
   subTitle:
-    "I'm an ML engineer with a background in technical writing and UX design. I solve real-world problems, simplify complex ideas and design meaningful experiences.",
+    "I build machine learning systems and study how they behave under real-world conditions.",
   portfolio_repository: "https://iamrabia-n.github.io/",
   githubProfile: "https://github.com/iamRabia-N",
 };
 
 const socialMediaLinks = [
   {
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/rabia-n/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+    name: "ORCID",
+    link: "https://orcid.org/0009-0001-2418-1972",
+    fontAwesomeIcon: "fa-orcid",
+    backgroundColor: "#A6CE39",
   },
   {
-    name: "Github",
-    link: "https://github.com/iamRabia-N",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    name: "Google Scholar",
+    link: "https://scholar.google.com/citations?user=UtzP8XAAAAAJ",
+    fontAwesomeIcon: "fas fa-graduation-cap",
+    backgroundColor: "#4285F4",
   },
   {
     name: "Kaggle",
@@ -49,10 +42,10 @@ const socialMediaLinks = [
     backgroundColor: "#20BEFF",
   },
   {
-    name: "ORCID",
-    link: "https://orcid.org/0009-0001-2418-1972",
-    fontAwesomeIcon: "fa-orcid",
-    backgroundColor: "#A6CE39",
+    name: "Github",
+    link: "https://github.com/iamRabia-N",
+    fontAwesomeIcon: "fa-github",
+    backgroundColor: "#181717",
   },
   {
     name: "Stack Overflow",
@@ -61,15 +54,9 @@ const socialMediaLinks = [
     backgroundColor: "#FF9900",
   },
   {
-    name: "Medium",
-    link: "https://medium.com/@Rabia_Naz",
-    fontAwesomeIcon: "fa-medium",
-    backgroundColor: "black",
-  },
-  {
-    name: "Behance",
-    link: "https://www.behance.net/iamRabia-N",
-    fontAwesomeIcon: "fa-behance",
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/rabia-n/",
+    fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#0077B5",
   },
   {
@@ -83,104 +70,53 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "ML Engineer",
+      title: "ML Engineer & Researcher",
       fileName: "FullStackImg",
       skills: [
-        "⚡ I build ML models from data exploration to deployment.",
-        "⚡ Experience in core ML areas including classification, regression, clustering, time series, DL and NLP.",
-        "⚡ I work in both research and applied ML from papers to pipelines.",
+        "⚡ I build machine learning models end to end, from data exploration to deployment.",
+        "⚡ I work across deep learning, NLP, and a range of supervised learning methods.",
+        "⚡ My work covers both applied machine learning and academic research.",
       ],
-
       softwareSkills: [
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
+          style: { backgroundColor: "transparent", color: "#3776AB" },
         },
         {
           skillName: "Numpy",
           fontAwesomeClassname: "logos:numpy",
-          style: {
-            backgroundColor: "transparent",
-          },
+          style: { backgroundColor: "transparent" },
         },
         {
           skillName: "Pandas",
           fontAwesomeClassname: "devicon:pandas",
-          style: {
-            backgroundColor: "transparent",
-          },
+          style: { backgroundColor: "transparent" },
         },
         {
           skillName: "Matplotlib",
           fontAwesomeClassname: "devicon:matplotlib",
-          style: {
-            backgroundColor: "transparent",
-          },
+          style: { backgroundColor: "transparent" },
         },
         {
           skillName: "Seaborn",
           fontAwesomeClassname: "logos:seaborn-icon",
-          style: {
-            backgroundColor: "transparent",
-          },
+          style: { backgroundColor: "transparent" },
         },
         {
           skillName: "Scikit-learn",
           fontAwesomeClassname: "devicon:scikitlearn",
-          style: {
-            backgroundColor: "transparent",
-            color: "#D00000",
-          },
+          style: { backgroundColor: "transparent", color: "#D00000" },
         },
         {
           skillName: "Tensorflow",
           fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
+          style: { backgroundColor: "transparent" },
         },
         {
           skillName: "PyTorch",
           fontAwesomeClassname: "devicon:pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-      ],
-    },
-    {
-      title: "Technical Writer",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ I write articles and technical documentation.",
-        "⚡ Experience in writing across ML, AI and UX design domains.",
-        "⚡ I make complex technical topics clear and accessible for any audience.",
-      ],
-      softwareSkills: [
-        {
-          skillName: "LaTeX",
-          fontAwesomeClassname: "devicon:latex",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Mendeley",
-          fontAwesomeClassname: "simple-icons:mendeley",
-          style: {
-            color: "#9D1620",
-          },
-        },
-        {
-          skillName: "Markdown",
-          fontAwesomeClassname: "devicon:markdown",
-          style: {
-            color: "#000000",
-          },
+          style: { backgroundColor: "transparent" },
         },
       ],
     },
@@ -189,90 +125,22 @@ const skills = {
       fileName: "DesignImg",
       skills: [
         "⚡ I design user interfaces from research and wireframes to high-fidelity prototypes.",
-        "⚡ Experience in user research, information architecture and usability testing.",
-        "⚡ I also implement designs into functional and responsive interfaces.",
+        "⚡ I have hands-on experience with user research, information architecture, and usability testing.",
+        "⚡ I translate designs into functional, responsive interfaces.",
       ],
       softwareSkills: [
         {
           skillName: "Figma",
           fontAwesomeClassname: "devicon:figma",
-          style: {
-            color: "#F24E1E",
-          },
+          style: { color: "#F24E1E" },
         },
         {
           skillName: "Adobe XD",
           fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Canva",
-          fontAwesomeClassname: "devicon:canva",
+          style: { color: "#FF2BC2" },
         },
       ],
     },
-    // {
-    //   title: "Frontend Developer",
-    //   fileName: "DataScienceImg",
-    //   skills: [
-    //     "⚡ Proficient frontend developer skilled in creating responsive and visually compelling web interfaces.",
-    //     "⚡ Expertise in HTML, CSS and JavaScript with a focus on ensuring a smooth and interactive user experience.",
-    //     "⚡ Strong problem-solving abilities to address cross-browser compatibility and performance optimization challenges.",
-    //     "⚡ Committed to enhancing the quality and functionality of web applications.",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "HTML5",
-    //       fontAwesomeClassname: "simple-icons:html5",
-    //       style: {
-    //         color: "#E34F26",
-    //       },
-    //     },
-    //     {
-    //       skillName: "CSS3",
-    //       fontAwesomeClassname: "fa-css3",
-    //       style: {
-    //         color: "#1572B6",
-    //       },
-    //     },
-    //     {
-    //       skillName: "JavaScript",
-    //       fontAwesomeClassname: "simple-icons:javascript",
-    //       style: {
-    //         backgroundColor: "#000000",
-    //         color: "#F7DF1E",
-    //       },
-    //     },
-    //     {
-    //       skillName: "JQuery",
-    //       fontAwesomeClassname: "devicon:jquery",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //         color: "#3776AB",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Bootstrap",
-    //       fontAwesomeClassname: "logos:bootstrap",
-    //     },
-    //     {
-    //       skillName: "NPM",
-    //       fontAwesomeClassname: "simple-icons:npm",
-    //       style: {
-    //         color: "#CB3837",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Git",
-    //       fontAwesomeClassname: "devicon:git",
-    //       style: {
-    //         color: "#CB3837",
-    //       },
-    //     },
-    //   ],
-    // },
   ],
 };
 
@@ -285,9 +153,9 @@ const degrees = {
       alt_name: "University of Sargodha",
       duration: "2020 - 2024",
       descriptions: [
-        "⚡ Coursework in data structures, algorithms, linear algebra, probability, statistics, data mining and database systems.",
-        "⚡ Studied subjects across software engineering, security, databases and human-computer interaction.",
-        "⚡ Led UX design workshops as part of the university's UX design team.",
+        "⚡ Coursework in data structures, algorithms, linear algebra, probability, statistics, data mining, and database systems.",
+        "⚡ Studied software engineering, machine learning, security, and human-computer interaction.",
+        "⚡ Carried out independent research alongside coursework.",
       ],
       website_link: "https://su.edu.pk/",
     },
@@ -315,15 +183,6 @@ const certifications = {
       color_code: "#1F70C199",
     },
     {
-      title: "Six Sigma Yellow Belt Specialization",
-      subtitle: "4-Course Series",
-      logo_path: "usog.jpg",
-      certificate_link:
-        "https://www.coursera.org/specializations/six-sigma-fundamentals",
-      alt_name: "University System of Georgia",
-      color_code: "#2e3a84",
-    },
-    {
       title: "Google UX Design Professional Certificate",
       subtitle: "8-Course Series",
       logo_path: "google_logo.png",
@@ -332,26 +191,14 @@ const certifications = {
       alt_name: "Google",
       color_code: "#1F70C199",
     },
-    {
-      title: "Google Project Management Professional Certificate",
-      subtitle: "7-Course Series",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/professional-certificates/google-project-management",
-      alt_name: "Google",
-      color_code: "#1F70C199",
-    },
   ],
 };
 
-// Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work and Volunteership",
-  // description:
-  //   "I have participated as a frontend developer in three hackathons and as a UX designer in two hackathons, collaborating with amazing developers and designers from around the globe. I have a strong passion for contributing to open-source projects and this commitment has led me to actively participate in various open-source communities as a valuable contributor. I have significant experience in my areas of expertise and research work. I’m passionate about contributing to open-source projects and enjoy working with others to build practical and effective solutions. ",
+  subtitle: "Work, Research, and Volunteering",
   description:
-    "I combine hands-on ML work with academic research and open-source contributions.",
+    "I combine hands-on machine learning work with academic research and open-source contributions.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -359,60 +206,35 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "ML Engineer",
-          company: "Freelancer",
+          title: "School Teaching Internee",
+          company: "Government Girls High School",
+          logo_path: "sti.jpg",
+          duration: "April 2026 - Present",
+          location: "On-site",
+          description:
+            "Teach computer science to secondary-level students under the STI Phase-2 program of the School Education Department (SED), Government of Punjab.",
+          color: "#0879bf",
+        },
+        {
+          title: "Machine Learning Engineer",
+          company: "Independent / Freelance",
           logo_path: "freelance.jpg",
           duration: "March 2024 - September 2025",
           location: "Remote",
           description:
-            "Developed ML models, analyzed datasets and built data-driven solutions for clients. Worked on various ML tasks with a focus on accuracy and timely delivery.",
+            "Built machine learning models for client projects. Handled data preprocessing, feature engineering, training, and evaluation.",
           color: "#0879bf",
         },
         {
-          title: "Lecturer",
+          title: "Computer Lecturer",
           company: "Punjab Group of Colleges",
           logo_path: "pgc.png",
           duration: "October 2024 - April 2025",
           location: "On-site",
-          // description:
-          //   "As a lecturer, I teach computer-related subjects to intermediate and bachelor's level students. My goal is to simplify complex topics and make learning easier and more practical for them. As a lecturer, I taught computer-related subjects to intermediate and bachelor's level students. I focused on simplifying complex topics and making learning more accessible and practical throughout my time in this role.",
           description:
-            "Taught computer science subjects to intermediate and bachelor's students. Focused on simplifying complex topics and making learning practical.",
+            "Taught computer science to intermediate and bachelor's students. Focused on making complex topics clear and practical.",
           color: "#0879bf",
         },
-
-        {
-          title: "Technical Writer",
-          company: "Freelancer",
-          logo_path: "freelance.jpg",
-          duration: "August 2023 - February 2024",
-          location: "Remote",
-          description:
-            "Worked as a contract-based technical writer with an R&D team. Created technical documentation and reports for the team.",
-          color: "#0879bf",
-        },
-        {
-          title: "UX Designer",
-          company: "GirlScript Summer of Code",
-          company_url: "https://summerofcode.withgoogle.com/",
-          logo_path: "gssoc.png",
-          duration: "June 2023 - August 2023",
-          location: "Remote",
-          description:
-            "Contributed to 30+ open-source projects as a UX designer during the 3-month program. Raised 180+ issues and merged 120+ pull requests.",
-          color: "#4285F4",
-        },
-        // {
-        //   title: "UX Designer",
-        //   company: "Social Summer of Code",
-        //   company_url: "https://www.linkedin.com/company/getsocialnow/",
-        //   logo_path: "ssoc.png",
-        //   duration: "June 2023 - July 2023",
-        //   location: "Remote",
-        //   description:
-        //     "Contributed to open-source projects by fixing design issues, adding features and improving user interfaces.",
-        //   color: "#D83B01",
-        // },
       ],
     },
     {
@@ -426,10 +248,10 @@ const experience = {
           company_url:
             "https://journal.50sea.com/index.php/IJIST/article/view/989/1596",
           logo_path: "paper.png",
-          duration: "16th September 2024",
+          duration: "September 2024",
           location: "Journal Paper",
           description:
-            "Analyzed cloud computing security challenges including data breaches, DDoS attacks and weak encryption across different cloud models. Presented a broader perspective on advanced security frameworks and outlined strategies for building secure, reliable and cost-effective cloud infrastructure.",
+            "Analyzed cloud computing security challenges across different cloud models and reviewed advanced security frameworks for building secure, reliable, and cost-effective cloud infrastructure.",
           color: "#181717",
         },
         {
@@ -439,10 +261,10 @@ const experience = {
           company_url:
             "https://journal.50sea.com/index.php/IJIST/article/view/951/",
           logo_path: "paper.png",
-          duration: "25th July 2024",
+          duration: "July 2024",
           location: "Journal Paper",
           description:
-            "Applied ML and DL techniques on a dataset of 168,000 Pakistani property entries to improve real estate price prediction. Tested Linear Regression, Gradient Boosting, Random Forest, CNN and KNN where KNN achieved the best results with an RMSE of 13.79 and R-squared of 0.85.",
+            "Applied ML and DL techniques to 168,000 Pakistani property entries. Of five models compared, KNN performed best at RMSE 13.79 and R-squared 0.85.",
           color: "#181717",
         },
         {
@@ -453,10 +275,10 @@ const experience = {
           company_url:
             "https://www.researchgate.net/publication/384164674_Machine_Learning_Deep_Learning_and_Hybrid_Approaches_in_Real_Estate_Price_Prediction_A_Comprehensive_Systematic_Literature_Review",
           logo_path: "paper.png",
-          duration: "28th June 2024",
+          duration: "June 2024",
           location: "Journal Paper",
           description:
-            "Categorized real estate price prediction approaches into ML, DL and hybrid models through a systematic review. Found that ML models perform well on small datasets, DL handles complex data better and hybrid models offer the highest prediction accuracy.",
+            "A systematic review that categorizes real estate price prediction methods into machine learning, deep learning, and hybrid approaches and compares their strengths.",
           color: "#181717",
         },
         {
@@ -467,66 +289,39 @@ const experience = {
           company_url:
             "https://www.researchgate.net/publication/384041185_Enhancing_Access_to_Legal_Information_AI-Driven_Constitution_of_Pakistan_Search_Engine",
           logo_path: "paper.png",
-          duration: "3rd - 5th October 2023",
+          duration: "October 2023",
           location: "Conference Paper",
           description:
-            "Built a neural network-based search engine for the Pakistani Constitution using information retrieval, tokenization and cosine similarity. The system vectorizes user queries and matches them against the dataset to enable efficient legal information retrieval.",
+            "Built a neural network-based search engine for the Pakistani Constitution using information retrieval, tokenization, and cosine similarity to match user queries against the dataset.",
           color: "#181717",
         },
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Volunteering",
       experiences: [
         {
-          title: "Open-Source Contributor",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
+          title: "UX Designer",
+          company: "GirlScript Summer of Code",
+          company_url: "https://summerofcode.withgoogle.com/",
+          logo_path: "gssoc.png",
+          duration: "June 2023 - August 2023",
+          location: "Remote",
           description:
-            "Contributed to various open-source projects from 2023 to 2024. Worked on bug fixes, new features, performance improvements and documentation. Collaborated with project maintainers and developers to review code, resolve issues and improve project quality.",
-          color: "#181717",
+            "Contributed to 30+ open-source projects as a UX designer over a three-month program. Raised 180+ issues and merged 120+ pull requests.",
+          color: "#4285F4",
         },
       ],
     },
   ],
 };
 
-// Projects Page
 const projectsHeader = {
   title: "Projects",
-  // description:
-  //   "I've had the opportunity to work on several frontend and UX design projects and I've enjoyed both creating them and sharing the finished work on platforms like GitHub and Behance. For machine learning, I exclusively conduct all of my work on Kaggle. Additionally, I contribute my knowledge to help others on Stack Overflow and Quora. I have worked on various frontend and UX design projects which I’ve had the opportunity to showcase on platforms like GitHub and Behance. Data science projects are conducted exclusively on Kaggle where I engage with real-world data challenges and continuously enhance my expertise. I also contribute actively to the developer community by sharing knowledge on Stack Overflow and Quora. ",
-  description:
-    "My projects cover different areas of my work. Each one is published on the platform that fits it best.",
+  description: "A selection of my work in machine learning and applied AI.",
   avatar_image_path: "projects_image.svg",
 };
-// const githubprojectheader = {
-//   title: "Github Projects I have contributed in",
-//   description:
-//     "I have worked on and published a few research papers and publications of my own.",
-//   avatar_image_path: "projects_image.svg",
-// };
 
-// const githubproject = {
-//   data: [
-//     {
-//       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-//       name: "Games-and-Go",
-//       description: "Case study on ecommerce app for cafe",
-//       url:
-//         "https://github.com/ssitvit/Games-and-Go",
-//     },
-//     {
-//       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-//       name: "GameZone",
-//       createdAt: "2023-08-09T16:26:54Z",
-//       description: "Case study on ecommerce app for cafe",
-//       url:
-//         "https://www.behance.net/gallery/177132547/DelightBlossom-Ecommerce-App-for-Cafe",
-//     },
-//   ],
-// };
 const publicationsHeader = {
   title: "Projects",
   // description:
@@ -537,84 +332,66 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
-      Category: "(AI Project)",
-      name: "NavSecOps — NAVIGUIDE",
-      Tools: "Tools: Python, YAML, GeoJSON, Gemini API, Claude API",
-      // createdAt: "Publication Platform: Devpost, GitLab",
+      Category: "(NLP Project)",
+      name: "AI vs Human Text Detection Across 30 Linguistic Features",
+      Tools: "Libraries: Scikit-learn, XGBoost, DistilBERT, NLTK, SHAP",
       description:
-        "Maritime route intelligence system in GitLab. Built validation, risk scoring and skipper briefing pipelines using Gemini and Claude APIs.",
+        "Benchmarked four models on a 487K-essay dataset with 30 linguistic features and SHAP interpretability.",
+      url:
+        "https://www.kaggle.com/code/rabianaz22/ai-vs-human-text-across-30-linguistic-features",
+    },
+    {
+      Category: "(NLP Project)",
+      name: "Disaster Tweets Classification",
+      Tools: "Libraries: TensorFlow, Transformers, Scikit-learn, GloVe",
+      description:
+        "Compared TF-IDF, a BiLSTM with attention, and fine-tuned BERT, where BERT reached the best F1 of 0.81.",
+      url:
+        "https://www.kaggle.com/code/rabianaz22/disaster-tweets-tf-idf-vs-bilstm-vs-bert",
+    },
+    {
+      Category: "(AI Project)",
+      name: "Blue Intelligence",
+      Tools: "Tools: TypeScript, Node.js, SQLite, Vite, GeoJSON",
+      description:
+        "AI system for mapping marine conservation data, built at Tiny Fish Hackathon 2026.",
+      url: "https://github.com/iamRabia-N/Blue-Intelligence",
+    },
+    {
+      Category: "(AI Project)",
+      name: "NavSecOps",
+      Tools: "Tools: Python, FastAPI, GitLab CI/CD, Google Cloud, GeoJSON",
+      description:
+        "CI-integrated maritime route analysis API deployed on Google Cloud.",
       url: "https://devpost.com/software/naviguide-for-berry-mappemonde-pe9ig6",
     },
     {
-      Category: "(ML Project)",
-      name: "EarthMark",
-      Tools: "Tech Stack: Python, Scikit-learn, Flask, Figma, API",
-      // createdAt: "Publication Platform: GitHub",
-      description:
-        "End-to-end ML web app for real estate price prediction. Built the full pipeline from data analysis to a deployed Flask application.",
-      url: "https://github.com/iamRabia-N/EarthMark",
-    },
-    {
       Category: "(DL Project)",
-      name: "Fashion MNIST - Deep Learning Models Comparison",
-      Tools:
-        "Libraries: TensorFlow, Keras, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn",
-      // createdAt: "Publication Platform: Kaggle",
+      name: "DL Models Comparison on Fashion MNIST",
+      Tools: "Libraries: TensorFlow, Keras, Scikit-learn",
       description:
-        "Compared Dense, CNN and Residual CNN on Fashion MNIST. Built an ensemble with 94.5% accuracy and per-class performance analysis.",
+        "Compared Dense, CNN, and Residual CNN architectures and built an ensemble reaching 94.5% accuracy.",
       url:
         "https://www.kaggle.com/code/rabianaz22/fashion-mnist-deep-learning-models-comparison",
     },
     {
       Category: "(UX Design Project)",
-      name: "Nexus",
-      Tools: "Tools: Figma, Sass, Angular Material",
-      // createdAt: "Publication Platform: Devpost",
-      description:
-        "Cloud storage dashboard with support for multiple providers and real-time monitoring of usage metrics. Designed the UI and created responsive layouts.",
-      url: "https://devpost.com/software/nexus-4wax5h",
-    },
-    {
-      Category: "(UX Design Project)",
       name: "DelightBlossom",
       Tools: "Tool: Figma",
-      // createdAt: "Publication Platform: Behance",
       description:
-        "Complete UX case study for a cafe ecommerce app. Covered the full design thinking process from user research to high-fidelity prototype.",
+        "Complete UX case study for a cafe ecommerce app, from user research to a high-fidelity prototype.",
       url:
         "https://www.behance.net/gallery/177132547/DelightBlossom-Ecommerce-App-for-Cafe",
-    },
-    {
-      Category: "(Technical Writing)",
-      name: "The Role of Visual Hierarchy in User Experience",
-      // createdAt: "Publication Platform: LinkedIn, Medium",
-      description:
-        "Explains how layout, typography, color, size and space shape user experience with real-world examples from Google, Apple and Airbnb.",
-      url:
-        "https://www.linkedin.com/pulse/role-visual-hierarchy-user-experience-rabia-naz-sdqpc/",
     },
   ],
 };
 
-// Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "contact.png",
-    // description:
-    //   "I am available on almost every social media platform mentioned below. Feel free to contact me on these platforms. I'm open to collaborating on projects related to data science, UX or frontend development. If you're interested in working together, feel free to reach out. For any queries, questions or assistance, you can reach out to me on LinkedIn.",
     description:
-      "I'm open to collaborations on projects and research. If your work aligns with my areas of expertise, reach out to discuss collaboration opportunities.",
-  },
-  blogSection: {
-    ontactSection: {
-      title: "Contact Me",
-      profile_image_path: "contact.png",
-      // description:
-      //   "I am available on almost every social media platform mentioned below. Feel free to contact me on these platforms. I'm open to collaborating on projects related to data science, UX or frontend development. If you're interested in working together, feel free to reach out. For any queries, questions or assistance, you can reach out to me on LinkedIn.",
-      description:
-        "I’m excited to connect with fellow professionals! If you’re passionate about data science, UX design or frontend development, I would appreciate to explore collaboration opportunities. Connect with me on LinkedIn to discuss collaborations.",
-    },
+      "I'm open to research and project collaborations in machine learning and applied AI. Reach out to discuss potential collaboration.",
   },
 };
 

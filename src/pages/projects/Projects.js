@@ -60,14 +60,12 @@ class Projects extends Component {
                     style={{ color: theme.text }}
                   >
                     {publicationsHeader.title}
-
                   </h1>
                   <p
                     className="projects-header-detail-text subTitle"
                     style={{ color: theme.secondaryText }}
                   >
                     {publicationsHeader["description"]}
-
                   </p>
                 </div>
               </div>
@@ -80,11 +78,11 @@ class Projects extends Component {
             return <PublicationCard pub={pub} theme={theme} />;
           })}
         </div>
-        
+
         <Button
           text={"More Projects"}
           className="project-button"
-          href={greeting.githubProfile}
+          href="https://www.kaggle.com/rabianaz22"
           newTab={true}
           theme={theme}
         />

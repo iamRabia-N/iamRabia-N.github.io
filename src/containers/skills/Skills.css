@@ -43,7 +43,7 @@
 }
 
 .skills-heading {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 300;
   font-family: "Google Sans Medium";
   line-height: normal;
@@ -55,7 +55,7 @@ h1.react-reveal.skills-heading {
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
-    font-size: 40px;
+    font-size: 32px;
   }
   .skills-header {
     font-size: 50px;
@@ -66,7 +66,7 @@ h1.react-reveal.skills-heading {
 }
 @media (max-width: 768px) {
   .skills-heading {
-    font-size: 30px;
+    font-size: 26px;
     text-align: center;
   }
   .skills-header {
