@@ -206,7 +206,7 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "School Teaching Internee",
+          title: "School Teaching Intern",
           company: "Government Girls High School",
           logo_path: "sti.jpg",
           duration: "April 2026 - Present",
